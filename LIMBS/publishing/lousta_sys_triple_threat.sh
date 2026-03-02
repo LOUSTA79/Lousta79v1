@@ -10,7 +10,21 @@ slugify() {
   printf "%s" "${s:-untitled}"
 }
 
+# Topic comes ONLY from env or argv (never from piped output)
 TOPIC="${TOPIC:-${1:-}}"
+# Trim leading/trailing whitespace
+TOPIC="$(printf "%s" "$TOPIC" | sed -e 's/^[[:space:]]\+//' -e 's/[[:space:]]\+$//')"
+if [ -z "$TOPIC" ]; then
+  echo "Usage: $0 <TOPIC>" >&2
+  exit 2
+fi
+
+# Guard: reject accidental rg/log tokens like "58:python3"
+if echo "$TOPIC" | rg -q '^[0-9]+:[A-Za-z0-9_\-]+$'; then
+  echo "❌ Bad TOPIC value: $TOPIC (looks like a log token / line prefix)" >&2
+  exit 2
+fi
+
 if [[ -z "$TOPIC" ]]; then
   echo "❌ Missing TOPIC"
   exit 1
