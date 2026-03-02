@@ -1,77 +1,90 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -euo pipefail
 
+##############################################################################
+# LOUSTA TRIPLE-THREAT SWARM LAUNCHER - PRODUCTION HARDENED
+##############################################################################
+
+log() { printf "[TRIPLE-THREAT] %s\n" "$1" >&2; }
+die() { log "❌ FATAL: $1"; exit 2; }
+
+validate_topic() {
+  local topic="$1"
+  topic="$(printf "%s" "$topic" | sed -e 's/^[[:space:]]\+//' -e 's/[[:space:]]\+$//')"
+  [ -z "$topic" ] && die "TOPIC is empty or whitespace-only"
+  if ! printf "%s" "$topic" | grep -qE '^[A-Za-z0-9 _.-]+$'; then
+    log "REJECTED TOPIC: '$topic'"
+    log "Allowed: A-Z a-z 0-9 space hyphen underscore period"
+    die "TOPIC contains forbidden characters"
+  fi
+  [ ${#topic} -gt 200 ] && die "TOPIC exceeds 200 characters"
+  printf "%s" "$topic"
+}
+
 slugify() {
   local s="${1:-}"
-  s="${s#"${s%%[![:space:]]*}"}"
-  s="${s%"${s##*[![:space:]]}"}"
-  s="$(printf "%s" "$s" | tr -s '[:space:]' '_' )"
-  s="$(printf "%s" "$s" | tr -cd 'A-Za-z0-9_-' )"
+  s="$(printf "%s" "$s" | sed -e 's/^[[:space:]]\+//' -e 's/[[:space:]]\+$//')"
+  s="$(printf "%s" "$s" | tr -s '[:space:]' '_')"
+  s="$(printf "%s" "$s" | tr -cd 'A-Za-z0-9_-')"
   printf "%s" "${s:-untitled}"
 }
 
-# Topic comes ONLY from env or argv (never from piped output)
 TOPIC="${TOPIC:-${1:-}}"
-# Trim leading/trailing whitespace
-TOPIC="$(printf "%s" "$TOPIC" | sed -e 's/^[[:space:]]\+//' -e 's/[[:space:]]\+$//')"
-if [ -z "$TOPIC" ]; then
-  echo "Usage: $0 <TOPIC>" >&2
-  exit 2
-fi
-
-# Guard: reject dangerous characters (paths / shell metacharacters / log-token separators)
-if printf "%s" "$TOPIC" | rg -q '[:/\\[\]\(\)\{\}<>|`$;&]'; then
-  echo "❌ Bad TOPIC value: $TOPIC (contains forbidden characters)" >&2
-  exit 2
-fi
-
-if [[ -z "$TOPIC" ]]; then
-  echo "❌ Missing TOPIC"
-  exit 1
-fi
-
-echo "🚀 TRIPLE-THREAT SWARM ACTIVATED: ${TOPIC}"
+[ -z "$TOPIC" ] && die "Missing TOPIC argument"
+TOPIC="$(validate_topic "$TOPIC")" || die "Validation failed"
+log "✅ TOPIC validated: '$TOPIC'"
+TOPIC_SLUG="$(slugify "$TOPIC")"
+export TOPIC TOPIC_SLUG
 
 PREFLIGHT="LIMBS/publishing/lousta_sys_harden_preflight.sh"
 LOCK="INTEGRATIONS/lockbox"
 HASHES="$LOCK/swarm_hashes.sha256"
 
+[ ! -f "$PREFLIGHT" ] && die "Preflight script not found"
+[ ! -d "$LOCK" ] && die "Lockbox not found"
+
 restore_lockbox() {
-  echo "🧯 Restoring last-known-good swarms from lockbox..."
-  cp -a "$LOCK/audio_swarm.js.good"        LIMBS/publishing/lousta_sys_audio_swarm.js  2>/dev/null || true
-  cp -a "$LOCK/video_swarm.js.good"        LIMBS/media/lousta_sys_video_swarm.js       2>/dev/null || true
-  cp -a "$LOCK/harden_preflight.sh.good"   LIMBS/publishing/lousta_sys_harden_preflight.sh 2>/dev/null || true
-  echo "✅ Restore complete"
+  log "🧯 Restoring swarms from lockbox..."
+  cp -a "$LOCK/audio_swarm.js.good"         "LIMBS/publishing/lousta_sys_audio_swarm.js"      2>/dev/null || true
+  cp -a "$LOCK/video_swarm.js.good"         "LIMBS/media/lousta_sys_video_swarm.js"            2>/dev/null || true
+  cp -a "$LOCK/harden_preflight.sh.good"    "LIMBS/publishing/lousta_sys_harden_preflight.sh"  2>/dev/null || true
+  cp -a "$LOCK/syndication_swarm.py.good"   "LIMBS/publishing/lousta_sys_syndication_swarm.py" 2>/dev/null || true
+  log "✅ Restore complete"
 }
 
-echo "✅ Running preflight..."
+log "✅ Running preflight..."
 if ! bash "$PREFLIGHT"; then
-  echo "🧯 Preflight failed — attempting restore..."
-  [[ -d "$LOCK" ]] && restore_lockbox
-  bash "$PREFLIGHT" || { echo "❌ Preflight still failing after restore"; exit 1; }
-fi
-echo "✅ Preflight OK"
-
-echo "✅ Integrity: verifying swarms..."
-if ! sha256sum -c "$HASHES" >/dev/null 2>&1; then
-  echo "❌ Integrity check failed: swarms do not match lockbox"
-  sha256sum -c "$HASHES" || true
-  echo "🧯 Restoring swarms from lockbox..."
+  log "🧯 Preflight failed — attempting restore..."
   restore_lockbox
-  echo "✅ Re-checking integrity after restore..."
-  sha256sum -c "$HASHES" >/dev/null 2>&1 || { echo "❌ Integrity still failing after restore"; exit 1; }
+  if ! bash "$PREFLIGHT"; then
+    die "Preflight still failing after restore"
+  fi
 fi
-echo "✅ Integrity OK"
+log "✅ Preflight OK"
 
-export TOPIC
-TOPIC_SLUG="$(slugify "$TOPIC")"
-export TOPIC_SLUG
+log "✅ Verifying integrity..."
+if [ -f "$HASHES" ]; then
+  if ! sha256sum -c "$HASHES" >/dev/null 2>&1; then
+    log "❌ Integrity check FAILED"
+    restore_lockbox
+    if ! sha256sum -c "$HASHES" >/dev/null 2>&1; then
+      die "Integrity check still failing after restore"
+    fi
+  fi
+fi
+log "✅ Integrity OK"
 
 mkdir -p RUNTIME/artifacts/books RUNTIME/artifacts/audiobooks RUNTIME/artifacts/social_clips
 
+log "🚀 TRIPLE-THREAT SWARM ACTIVATED: $TOPIC"
+
 python3 LIMBS/publishing/lousta_sys_syndication_swarm.py --topic "$TOPIC" --mode "FULL_BOOK" & PID_SYND=$!
-node   LIMBS/publishing/lousta_sys_audio_swarm.js       --topic "$TOPIC" & PID_AUDIO=$!
-node   LIMBS/media/lousta_sys_video_swarm.js            --topic "$TOPIC" --format "VERTICAL" & PID_VIDEO=$!
+node    LIMBS/publishing/lousta_sys_audio_swarm.js       --topic "$TOPIC"                     & PID_AUDIO=$!
+node    LIMBS/media/lousta_sys_video_swarm.js            --topic "$TOPIC" --format "VERTICAL" & PID_VIDEO=$!
+
+log "Syndication swarm (PID $PID_SYND)"
+log "Audio swarm (PID $PID_AUDIO)"
+log "Video swarm (PID $PID_VIDEO)"
 
 fail=0
 TIMEOUT="${TIMEOUT:-900}"
@@ -79,30 +92,24 @@ START="$(date +%s)"
 
 wait_one() {
   local pid="$1"
+  local name="$2"
   while kill -0 "$pid" 2>/dev/null; do
     local now="$(date +%s)"
-    if (( now - START > TIMEOUT )); then
-      echo "❌ TIMEOUT: killing pid=$pid"
-      kill "$pid" 2>/dev/null || true
-      fail=1
-      return 1
-    fi
+    local elapsed=$((now - START))
+    [ $elapsed -gt "$TIMEOUT" ] && { log "⏱️  TIMEOUT: killing $name"; kill "$pid" 2>/dev/null || true; fail=1; return 1; }
     sleep 1
   done
-  if ! wait "$pid"; then
-    echo "❌ A job failed (pid=$pid)"
+  if ! wait "$pid" 2>/dev/null; then
+    log "❌ $name exited with non-zero"
     fail=1
     return 1
   fi
 }
 
-wait_one "$PID_SYND"  || true
-wait_one "$PID_AUDIO" || true
-wait_one "$PID_VIDEO" || true
+wait_one "$PID_SYND"  "syndication" || true
+wait_one "$PID_AUDIO" "audio"       || true
+wait_one "$PID_VIDEO" "video"       || true
 
-if (( fail != 0 )); then
-  echo "❌ PRODUCTION FAILED: at least one swarm crashed"
-  exit 1
-fi
+[ "$fail" != 0 ] && die "PRODUCTION FAILED: one or more swarms crashed"
 
-echo "✅ PRODUCTION COMPLETE: Full Book, Audiobook, and 5 Video Clips secured."
+log "✅ PRODUCTION COMPLETE: Full Book, Audiobook, and 5 Video Clips secured."
