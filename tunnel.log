@@ -1,0 +1,34 @@
+nohup: ignoring input
+2026-03-01T17:47:05Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-03-01T17:47:05Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-03-01T17:47:09Z INF +--------------------------------------------------------------------------------------------+
+2026-03-01T17:47:09Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-03-01T17:47:09Z INF |  https://friends-circuit-getting-ids.trycloudflare.com                                     |
+2026-03-01T17:47:09Z INF +--------------------------------------------------------------------------------------------+
+2026-03-01T17:47:09Z INF Version 2026.2.0 (Checksum )
+2026-03-01T17:47:09Z INF GOOS: android, GOVersion: go1.25.6, GoArch: arm64
+2026-03-01T17:47:09Z INF Settings: map[ha-connections:1 protocol:quic proxy-dns:true proxy-dns-address:127.0.0.1 proxy-dns-port:5053 proxy-dns-upstream:[https://1.1.1.1/dns-query https://8.8.8.8/dns-query] url:http://localhost:3009]
+2026-03-01T17:47:09Z ERR Failed to fetch features, default to disable error="lookup cfd-features.argotunnel.com on [::1]:53: read udp [::1]:43192->[::1]:53: read: connection refused"
+2026-03-01T17:47:09Z INF Generated Connector ID: 1dbaee04-ae2b-49ee-81df-6baa1cd83dfc
+2026-03-01T17:47:09Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2026-03-01T17:47:09Z WRN Unable to lookup protocol percentage.
+2026-03-01T17:47:09Z INF Initial protocol quic
+2026-03-01T17:47:09Z INF ICMP proxy will use 192.168.2.115 as source for IPv4
+2026-03-01T17:47:09Z INF ICMP proxy will use :: as source for IPv6
+2026-03-01T17:47:09Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
+2026-03-01T17:47:09Z INF ICMP proxy will use 192.168.2.115 as source for IPv4
+2026-03-01T17:47:09Z INF ICMP proxy will use :: as source for IPv6
+2026-03-01T17:47:09Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-01T17:47:09Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.227
+2026-03-01T17:47:09Z ERR Failed to initialize DNS local resolver error="lookup region1.v2.argotunnel.com on [::1]:53: read udp [::1]:51640->[::1]:53: read: connection refused"
+2026-03-01T17:47:10Z INF Registered tunnel connection connIndex=0 connection=9bf5b664-3301-4593-b8c8-12b8d5e8871c event=0 ip=198.41.192.227 location=mel02 protocol=quic
+2026-03-01T17:52:09Z ERR Failed to refresh DNS local resolver error="lookup region1.v2.argotunnel.com on [::1]:53: read udp [::1]:52391->[::1]:53: read: connection refused"
+2026-03-01T17:54:30Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-01T17:54:30Z ERR failed to run the datagram handler error="Application error 0x0 (remote)" connIndex=0 event=0 ip=198.41.192.227
+2026-03-01T17:54:30Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.227
+2026-03-01T17:54:30Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.227
+2026-03-01T17:54:30Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.227
+2026-03-01T17:54:30Z ERR Connection terminated connIndex=0
+2026-03-01T17:54:30Z ERR no more connections active and exiting
+2026-03-01T17:54:30Z INF Tunnel server stopped
+2026-03-01T17:54:30Z INF Metrics server stopped

@@ -1,0 +1,6 @@
+{
+  "CORE_0": { "role": "High-Speed Compute", "weight": 0.5 },
+  "LOUCORP": { "role": "Corporate Holding", "weight": 0.3 },
+  "ARBITRAGE_SCOUT": { "role": "Currency Specialist", "weight": 0.1 },
+  "B2B_EXPANSION": { "role": "Bulk Licensing", "weight": 0.1 }
+}

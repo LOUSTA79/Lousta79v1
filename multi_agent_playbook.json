@@ -1,0 +1,242 @@
+{
+  "version": "1.0",
+  "org": {
+    "name": "Lousta Autonomous Studio",
+    "owner": "Ljupce Arsovski",
+    "timezone": "Australia/Melbourne",
+    "mission": "Launch from $0 revenue to maximum profit in 60 days via multi-cluster AI automation."
+  },
+  "buses": {
+    "command_bus": "redis://queue:6379/commands",
+    "event_bus": "redis://queue:6379/events",
+    "dead_letter": "redis://queue:6379/dlq"
+  },
+  "datasources": {
+    "content_assets": "gs://lousta/content",
+    "templates": "gs://lousta/templates",
+    "metrics_db": "sqlite:///metrics.db",
+    "kpi_sheet": "gdrive://Lousta/KPIs/GrowthDashboard.xlsx"
+  },
+  "tools": {
+    "llm": { "provider": "openai", "model": "gpt-5", "temp": 0.6 },
+    "tts": { "provider": "elevenlabs", "voice": "neutral_engaging" },
+    "video_gen": { "providers": ["pika", "runway", "veo"], "mode": "short_form" },
+    "thumb_gen": { "provider": "canva_automate" },
+    "seo": { "provider": "ahrefs_like", "budget_per_day": 10 },
+    "ads": { "providers": ["google", "meta", "tiktok"], "max_daily_spend": 30, "start_paused": true },
+    "shop": { "provider": "shopify", "store": "lousta-autostore" },
+    "affiliate": { "networks": ["Amazon", "Impact", "CJ"], "verticals": ["tech", "finance"] }
+  },
+  "guardrails": {
+    "content_policy": ["no medical/financial advice without disclaimers", "no copyrighted footage without license"],
+    "ad_spend_caps": { "phase": "bootstrap", "max_daily": 30, "unlock_on": "rev_daily>=220" },
+    "brand": { "tone": "confident, helpful, concise", "style": "clean, modern, high-contrast" },
+    "safety": { "auto_check": true, "block_if": ["toxicity>0.2", "copyright_risk>0.5"] }
+  },
+  "kpis": {
+    "content": {
+      "videos_per_day": 8,
+      "avg_view_duration_pct": 60,
+      "ctr_pct": 5,
+      "rpm_usd": 3.5
+    },
+    "finance": {
+      "daily_break_even": 220,
+      "growth_rate_monthly_pct": 25,
+      "liquidity_buffer_pct": 10
+    },
+    "ecom": {
+      "pod_launch_day": 14,
+      "sku_count": 20,
+      "cv_rate_pct": 2.0
+    }
+  },
+  "reinvestment_rules": {
+    "bootstrap": {
+      "priority": ["content", "distribution", "analytics"],
+      "unlock_ads_if": "rev_rolling_3d >= 660",
+      "allocate": [
+        { "bucket": "ads", "pct": 40 },
+        { "bucket": "content_scale", "pct": 40 },
+        { "bucket": "buffer", "pct": 20 }
+      ]
+    },
+    "scale": {
+      "trigger": "rev_daily >= 450",
+      "allocate": [
+        { "bucket": "ads", "pct": 45 },
+        { "bucket": "tooling_saas", "pct": 15 },
+        { "bucket": "content_scale", "pct": 30 },
+        { "bucket": "buffer", "pct": 10 }
+      ]
+    }
+  },
+  "agents": [
+    {
+      "name": "DiscoveryAgent",
+      "role": "Trend & niche research",
+      "inputs": ["web.search", "platform.analytics"],
+      "outputs": ["topic_briefs", "keyword_clusters"]
+    },
+    {
+      "name": "ContentAgentA",
+      "role": "Script + shotlist",
+      "inputs": ["topic_briefs", "keyword_clusters", "templates"],
+      "outputs": ["scripts_v1", "overlays", "broll_requests"]
+    },
+    {
+      "name": "ContentAgentB",
+      "role": "Variant generation & localization",
+      "inputs": ["scripts_v1"],
+      "outputs": ["scripts_v2_multivariants"]
+    },
+    {
+      "name": "ProductionAgent",
+      "role": "TTS + video assembly + thumbnail",
+      "inputs": ["scripts_v2_multivariants", "overlays", "broll_requests"],
+      "outputs": ["shorts_mp4", "thumbnails_png"]
+    },
+    {
+      "name": "MarketingAgentA",
+      "role": "Publishing & cross-posting",
+      "inputs": ["shorts_mp4", "thumbnails_png"],
+      "outputs": ["yt_shorts_posts", "tiktok_posts", "reels_posts"]
+    },
+    {
+      "name": "MarketingAgentB",
+      "role": "A/B test titles & thumbnails; CTR lift",
+      "inputs": ["yt_shorts_posts"],
+      "outputs": ["ab_test_matrix", "winning_creatives"]
+    },
+    {
+      "name": "EcomAgent",
+      "role": "POD store setup + SKU design",
+      "inputs": ["topic_briefs", "templates"],
+      "outputs": ["pod_skus", "storefront_updates"]
+    },
+    {
+      "name": "AffiliateAgent",
+      "role": "Offer mapping & link injection",
+      "inputs": ["topic_briefs", "scripts_v2_multivariants"],
+      "outputs": ["affiliate_links", "end_cards"]
+    },
+    {
+      "name": "AnalyticsAgent",
+      "role": "KPI tracker + feedback loops",
+      "inputs": ["platform.metrics", "ads.metrics"],
+      "outputs": ["daily_kpi_report", "alerts", "route_changes"]
+    },
+    {
+      "name": "FinanceAgent",
+      "role": "P&L, reinvestment, caps",
+      "inputs": ["daily_kpi_report"],
+      "outputs": ["budget_changes", "reinvestment_orders"]
+    },
+    {
+      "name": "ComplianceAgent",
+      "role": "Policy & copyright screening",
+      "inputs": ["scripts_v2_multivariants", "shorts_mp4"],
+      "outputs": ["approval_tags", "block_reasons"]
+    }
+  ],
+  "queues": {
+    "priority": ["DiscoveryAgent", "ContentAgentA", "ContentAgentB", "ProductionAgent", "ComplianceAgent", "MarketingAgentA", "MarketingAgentB", "AnalyticsAgent", "FinanceAgent"],
+    "concurrency": {
+      "ContentAgentA": 4,
+      "ContentAgentB": 4,
+      "ProductionAgent": 2,
+      "MarketingAgentA": 2
+    }
+  },
+  "workflows": [
+    {
+      "name": "WF01_DailyShortsFactory",
+      "triggers": [ { "cron": "0 */3 * * *" } ],
+      "steps": [
+        { "agent": "DiscoveryAgent", "task": "find_trends", "params": { "n_topics": 6, "verticals": ["news", "viral", "tech_finance_explainers"] } },
+        { "agent": "ContentAgentA", "task": "draft_scripts", "params": { "per_topic": 2, "length_sec": 45, "hook_variants": 3 } },
+        { "agent": "ContentAgentB", "task": "mutate_variants", "params": { "languages": ["en"], "tone": "punchy", "ctas": ["subscribe", "check link"] } },
+        { "agent": "ComplianceAgent", "task": "preflight_check", "params": { "copyright_scan": true, "disclaimer_if_finance": true } },
+        { "agent": "ProductionAgent", "task": "render_batch", "params": { "tts": "elevenlabs", "video_engine": "pika", "thumbnail_variants": 3 } },
+        { "agent": "MarketingAgentA", "task": "publish_all", "params": { "platforms": ["youtube", "tiktok", "instagram"], "tags": ["lousta", "viral"], "schedule": "immediate" } },
+        { "agent": "MarketingAgentB", "task": "ab_test", "params": { "test_window_hours": 6, "max_variants": 5, "success_metric": "CTR" } },
+        { "agent": "AffiliateAgent", "task": "inject_links", "params": { "placements": ["description_top", "pinned_comment", "end_card"] } },
+        { "agent": "AnalyticsAgent", "task": "collect_metrics", "params": { "kpis": ["views", "ctr", "avg_view_dur", "rpm"], "window_hours": 24 } },
+        { "agent": "FinanceAgent", "task": "reinvest_logic", "params": { "unlock_ads_if": "rev_rolling_3d>=660", "caps": { "daily": 30 } } }
+      ],
+      "success_criteria": {
+        "videos_per_day_min": 8,
+        "avg_view_duration_pct_min": 60,
+        "rpm_min": 3.5
+      },
+      "fallbacks": [
+        { "if": "ctr_pct<4", "then": { "agent": "MarketingAgentB", "task": "regenerate_thumbnails_titles" } },
+        { "if": "avg_view_duration_pct<55", "then": { "agent": "ContentAgentA", "task": "rewrite_hook", "params": { "stronger_open": true } } }
+      ]
+    },
+    {
+      "name": "WF02_DigitalProductSprint",
+      "triggers": [ { "cron": "30 10 * * 2,5" } ],
+      "steps": [
+        { "agent": "DiscoveryAgent", "task": "course_topic", "params": { "rpm_bias": "high", "niche": "tech_finance" } },
+        { "agent": "ContentAgentA", "task": "outline_ebook_course", "params": { "chapters": 8, "dl_assets": true } },
+        { "agent": "ProductionAgent", "task": "package_pdf_assets", "params": { "cover": true, "promo_images": true } },
+        { "agent": "MarketingAgentA", "task": "landing_page", "params": { "platform": "gumroad", "bundle_with": "affiliate_links" } },
+        { "agent": "AnalyticsAgent", "task": "track_sales", "params": { "events": ["product_view", "checkout", "purchase"] } }
+      ],
+      "success_criteria": { "first_sales_window_hours": 72 }
+    },
+    {
+      "name": "WF03_POD_Store_Launch",
+      "triggers": [ { "on": "day>=14 && rev_rolling_7d>500" } ],
+      "steps": [
+        { "agent": "EcomAgent", "task": "design_skus", "params": { "count": 20, "themes": ["tech", "viral_quotes"], "mockups": true } },
+        { "agent": "EcomAgent", "task": "publish_storefront", "params": { "collections": ["best_sellers", "new"], "shipping_notice": "7-10 days" } },
+        { "agent": "MarketingAgentA", "task": "promo_spots", "params": { "placements": ["end_cards", "descriptions", "community_posts"] } },
+        { "agent": "AnalyticsAgent", "task": "track_ecom", "params": { "kpis": ["sessions", "cart", "checkout", "purchase"] } },
+        { "agent": "FinanceAgent", "task": "budget_adjust", "params": { "ads_if_cv_rate_pct>=1.2": 15 } }
+      ]
+    }
+  ],
+  "error_correction_loops": [
+    {
+      "name": "Loop_CTR_Lift",
+      "watch": "ctr_pct",
+      "threshold": "<4",
+      "actions": [
+        { "agent": "MarketingAgentB", "task": "regen_5_thumbnails" },
+        { "agent": "ContentAgentA", "task": "rewrite_title_hooks" },
+        { "agent": "AnalyticsAgent", "task": "measure_after_2h" }
+      ]
+    },
+    {
+      "name": "Loop_Retention_Fix",
+      "watch": "avg_view_duration_pct",
+      "threshold": "<55",
+      "actions": [
+        { "agent": "ContentAgentA", "task": "tighten_script", "params": { "intro_max_sec": 3, "pattern_interrupt": true } },
+        { "agent": "ProductionAgent", "task": "faster_edit_pacing", "params": { "cuts_per_min_min": 24 } }
+      ]
+    },
+    {
+      "name": "Loop_Revenue_Unlock",
+      "watch": "rev_rolling_3d",
+      "threshold": ">=660",
+      "actions": [
+        { "agent": "FinanceAgent", "task": "enable_ads", "params": { "daily_cap": 30 } },
+        { "agent": "MarketingAgentA", "task": "retarget_recent_viewers" }
+      ]
+    }
+  ],
+  "telemetry": {
+    "dash_panels": [
+      { "name": "Daily KPIs", "fields": ["videos", "views", "ctr_pct", "avg_view_duration_pct", "rpm", "rev_daily", "profit_daily"] },
+      { "name": "AB Tests", "fields": ["title_variant", "thumb_variant", "ctr_lift_pct"] },
+      { "name": "E-Com", "fields": ["sessions", "cart", "checkout", "purchase", "cv_rate_pct"] }
+    ],
+    "alerts": [
+      { "rule": "rpm<2.5 for 24h", "action": "notify:Director + switch niche bias to tech_finance_explainers" },
+      { "rule": "profit_daily<0 for 2 days", "action": "pause ads + reallocate to content_scale" }
+    ]
+  }
+}

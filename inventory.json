@@ -1,0 +1,4198 @@
+[
+  {
+    "id": 209,
+    "title": "The Autonomous Empire - Edition 11",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 15486,
+    "sales": 699,
+    "publishedDate": "2025-12-17",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 39m",
+    "rating": "4.7",
+    "reviews": 327,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "The Solopreneur Playbook - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 15479,
+    "sales": 322,
+    "publishedDate": "2026-01-19",
+    "pages": null,
+    "modules": 7,
+    "students": 351,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 379,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Digital Product Launch - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 15434,
+    "sales": 326,
+    "publishedDate": "2026-02-09",
+    "pages": 425,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 322,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "The Autonomous Empire - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 15422,
+    "sales": 515,
+    "publishedDate": "2026-02-11",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 32m",
+    "rating": "4.7",
+    "reviews": 535,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Building Your Personal Brand - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 15300,
+    "sales": 224,
+    "publishedDate": "2025-10-25",
+    "pages": 303,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 170,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Video Marketing Secrets - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 15295,
+    "sales": 492,
+    "publishedDate": "2026-02-06",
+    "pages": 186,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 71,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Video Marketing Secrets - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 15236,
+    "sales": 269,
+    "publishedDate": "2025-09-26",
+    "pages": null,
+    "modules": 12,
+    "students": 253,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 664,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Revenue Streams Handbook - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 15057,
+    "sales": 553,
+    "publishedDate": "2025-09-25",
+    "pages": 366,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 57,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Passive Income Blueprint - Edition 6",
+    "type": "book",
+    "status": "completed",
+    "revenue": 15009,
+    "sales": 363,
+    "publishedDate": "2025-09-03",
+    "pages": 170,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 513,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Digital Product Launch - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14924,
+    "sales": 265,
+    "publishedDate": "2026-01-31",
+    "pages": null,
+    "modules": 9,
+    "students": 194,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 451,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Sales Funnel Secrets - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14917,
+    "sales": 348,
+    "publishedDate": "2025-11-04",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 58m",
+    "rating": "4.7",
+    "reviews": 53,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Video Marketing Secrets - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 14910,
+    "sales": 266,
+    "publishedDate": "2026-02-15",
+    "pages": 181,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 44,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "The Solopreneur Playbook - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14880,
+    "sales": 280,
+    "publishedDate": "2025-09-21",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 0m",
+    "rating": "4.6",
+    "reviews": 445,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Video Marketing Secrets - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14748,
+    "sales": 220,
+    "publishedDate": "2026-02-19",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 21m",
+    "rating": "4.9",
+    "reviews": 709,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Content Creation Mastery - Edition 4",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14737,
+    "sales": 333,
+    "publishedDate": "2025-12-25",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 45m",
+    "rating": "4.7",
+    "reviews": 739,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 193,
+    "title": "The 7-Figure Funnel - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14705,
+    "sales": 235,
+    "publishedDate": "2025-12-24",
+    "pages": null,
+    "modules": 14,
+    "students": 372,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 636,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Email Marketing Mastery - Edition 6",
+    "type": "book",
+    "status": "completed",
+    "revenue": 14688,
+    "sales": 260,
+    "publishedDate": "2025-09-30",
+    "pages": 430,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 580,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Content Creation Mastery - Edition 2",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14630,
+    "sales": 246,
+    "publishedDate": "2025-10-06",
+    "pages": null,
+    "modules": 14,
+    "students": 123,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 188,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Scaling to 7 Figures - Edition 2",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14590,
+    "sales": 696,
+    "publishedDate": "2025-10-29",
+    "pages": null,
+    "modules": 24,
+    "students": 456,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 442,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Social Media Domination - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14476,
+    "sales": 222,
+    "publishedDate": "2025-11-14",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 5m",
+    "rating": "4.7",
+    "reviews": 59,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Social Media Domination - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14453,
+    "sales": 539,
+    "publishedDate": "2026-02-18",
+    "pages": null,
+    "modules": 17,
+    "students": 818,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 186,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "The 7-Figure Funnel - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14344,
+    "sales": 335,
+    "publishedDate": "2026-01-09",
+    "pages": null,
+    "modules": 16,
+    "students": 384,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 610,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Customer Retention Strategies - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14337,
+    "sales": 639,
+    "publishedDate": "2026-01-09",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 48m",
+    "rating": "4.8",
+    "reviews": 806,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 141,
+    "title": "The Solopreneur Playbook - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 14336,
+    "sales": 306,
+    "publishedDate": "2025-10-30",
+    "pages": 370,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 526,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Digital Product Launch - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14262,
+    "sales": 434,
+    "publishedDate": "2025-12-15",
+    "pages": null,
+    "modules": 11,
+    "students": 1044,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 442,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "E-commerce Blueprint - Edition 4",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14154,
+    "sales": 239,
+    "publishedDate": "2026-01-31",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 30m",
+    "rating": "4.7",
+    "reviews": 420,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 166,
+    "title": "The AI Money Machine - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 14118,
+    "sales": 299,
+    "publishedDate": "2026-02-09",
+    "pages": null,
+    "modules": 8,
+    "students": 230,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 352,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 173,
+    "title": "The 7-Figure Funnel - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14100,
+    "sales": 368,
+    "publishedDate": "2026-01-09",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 34m",
+    "rating": "4.9",
+    "reviews": 131,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Affiliate Marketing Profits - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 14023,
+    "sales": 614,
+    "publishedDate": "2025-11-02",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 49m",
+    "rating": "4.7",
+    "reviews": 701,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Copywriting for Conversion - Edition 1",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 13942,
+    "sales": 315,
+    "publishedDate": "2026-01-09",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 4m",
+    "rating": "4.9",
+    "reviews": 332,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 189,
+    "title": "The Autonomous Empire - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13933,
+    "sales": 228,
+    "publishedDate": "2025-09-12",
+    "pages": 271,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 656,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "E-commerce Blueprint - Edition 7",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 13913,
+    "sales": 241,
+    "publishedDate": "2026-02-05",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "3h 28m",
+    "rating": "4.7",
+    "reviews": 544,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Email Marketing Mastery - Edition 3",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13894,
+    "sales": 620,
+    "publishedDate": "2025-09-20",
+    "pages": 439,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 160,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Affiliate Marketing Profits - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13893,
+    "sales": 252,
+    "publishedDate": "2026-01-29",
+    "pages": 211,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 362,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "The AI Money Machine - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 13660,
+    "sales": 386,
+    "publishedDate": "2025-10-04",
+    "pages": null,
+    "modules": 13,
+    "students": 974,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 526,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Scaling to 7 Figures - Edition 3",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13631,
+    "sales": 562,
+    "publishedDate": "2025-10-05",
+    "pages": 256,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 283,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Building Your Personal Brand - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 13429,
+    "sales": 486,
+    "publishedDate": "2025-11-02",
+    "pages": null,
+    "modules": 12,
+    "students": 1064,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 625,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "The 7-Figure Funnel - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 13346,
+    "sales": 393,
+    "publishedDate": "2026-02-02",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 0m",
+    "rating": "4.6",
+    "reviews": 359,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Affiliate Marketing Profits - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13342,
+    "sales": 270,
+    "publishedDate": "2025-10-24",
+    "pages": 448,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 448,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Sales Funnel Secrets - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13193,
+    "sales": 199,
+    "publishedDate": "2025-09-06",
+    "pages": 201,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 206,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "The 7-Figure Funnel - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 13090,
+    "sales": 318,
+    "publishedDate": "2025-10-31",
+    "pages": null,
+    "modules": 15,
+    "students": 432,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 305,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Scaling to 7 Figures - Edition 4",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 13085,
+    "sales": 229,
+    "publishedDate": "2025-09-07",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 36m",
+    "rating": "4.8",
+    "reviews": 361,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 207,
+    "title": "100 Ways to Automate - Edition 11",
+    "type": "book",
+    "status": "completed",
+    "revenue": 13002,
+    "sales": 199,
+    "publishedDate": "2025-12-04",
+    "pages": 170,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 371,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "The AI Money Machine - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 12838,
+    "sales": 590,
+    "publishedDate": "2025-09-20",
+    "pages": null,
+    "modules": 23,
+    "students": 1012,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 646,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Building Your Personal Brand - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 12776,
+    "sales": 317,
+    "publishedDate": "2026-02-21",
+    "pages": null,
+    "modules": 23,
+    "students": 799,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 297,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Scaling to 7 Figures - Edition 9",
+    "type": "book",
+    "status": "completed",
+    "revenue": 12762,
+    "sales": 351,
+    "publishedDate": "2025-12-15",
+    "pages": 336,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 602,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Digital Product Launch - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 12732,
+    "sales": 306,
+    "publishedDate": "2026-02-28",
+    "pages": null,
+    "modules": 9,
+    "students": 626,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 770,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Social Media Domination - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 12462,
+    "sales": 285,
+    "publishedDate": "2025-11-30",
+    "pages": 219,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 728,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Content Creation Mastery - Edition 11",
+    "type": "course",
+    "status": "completed",
+    "revenue": 12423,
+    "sales": 540,
+    "publishedDate": "2025-11-10",
+    "pages": null,
+    "modules": 5,
+    "students": 213,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 650,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Copywriting for Conversion - Edition 7",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 12265,
+    "sales": 439,
+    "publishedDate": "2025-10-24",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 13m",
+    "rating": "4.7",
+    "reviews": 788,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Coaching Business Secrets - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 12166,
+    "sales": 278,
+    "publishedDate": "2025-10-15",
+    "pages": 177,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 183,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Building Your Personal Brand - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 12153,
+    "sales": 183,
+    "publishedDate": "2025-10-12",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 1m",
+    "rating": "4.6",
+    "reviews": 166,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Scaling to 7 Figures - Edition 7",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 12038,
+    "sales": 238,
+    "publishedDate": "2025-11-16",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "3h 4m",
+    "rating": "4.8",
+    "reviews": 762,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Affiliate Marketing Profits - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 12035,
+    "sales": 318,
+    "publishedDate": "2025-12-09",
+    "pages": null,
+    "modules": 5,
+    "students": 530,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 147,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 186,
+    "title": "The AI Money Machine - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 11973,
+    "sales": 362,
+    "publishedDate": "2025-11-17",
+    "pages": 350,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 747,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "The Solopreneur Playbook - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 11840,
+    "sales": 237,
+    "publishedDate": "2025-12-13",
+    "pages": 371,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 603,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Scaling to 7 Figures - Edition 5",
+    "type": "course",
+    "status": "completed",
+    "revenue": 11416,
+    "sales": 223,
+    "publishedDate": "2025-10-06",
+    "pages": null,
+    "modules": 24,
+    "students": 294,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 425,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Coaching Business Secrets - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 11392,
+    "sales": 438,
+    "publishedDate": "2025-12-16",
+    "pages": null,
+    "modules": 12,
+    "students": 392,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 364,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Revenue Streams Handbook - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 11377,
+    "sales": 311,
+    "publishedDate": "2026-01-23",
+    "pages": null,
+    "modules": 21,
+    "students": 131,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 215,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The AI Money Machine - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 11368,
+    "sales": 181,
+    "publishedDate": "2025-12-30",
+    "pages": 361,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 778,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "The Solopreneur Playbook - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 11231,
+    "sales": 210,
+    "publishedDate": "2025-11-10",
+    "pages": 170,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 137,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Social Media Domination - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 11212,
+    "sales": 319,
+    "publishedDate": "2025-12-04",
+    "pages": 286,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 551,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Email Marketing Mastery - Edition 5",
+    "type": "course",
+    "status": "completed",
+    "revenue": 11205,
+    "sales": 285,
+    "publishedDate": "2025-10-15",
+    "pages": null,
+    "modules": 24,
+    "students": 1075,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 590,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Scaling to 7 Figures - Edition 1",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 11168,
+    "sales": 441,
+    "publishedDate": "2025-10-28",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 47m",
+    "rating": "4.7",
+    "reviews": 793,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Video Marketing Secrets - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 11119,
+    "sales": 284,
+    "publishedDate": "2025-10-18",
+    "pages": 279,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 108,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Affiliate Marketing Profits - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 11050,
+    "sales": 195,
+    "publishedDate": "2025-11-25",
+    "pages": null,
+    "modules": 24,
+    "students": 259,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 199,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Video Marketing Secrets - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 10990,
+    "sales": 197,
+    "publishedDate": "2025-11-25",
+    "pages": null,
+    "modules": 10,
+    "students": 899,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 242,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 183,
+    "title": "E-commerce Blueprint - Edition 9",
+    "type": "book",
+    "status": "completed",
+    "revenue": 10915,
+    "sales": 179,
+    "publishedDate": "2025-11-18",
+    "pages": 263,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 507,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "The Autonomous Empire - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 10842,
+    "sales": 168,
+    "publishedDate": "2025-10-02",
+    "pages": null,
+    "modules": 13,
+    "students": 832,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 33,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "100 Ways to Automate - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10694,
+    "sales": 473,
+    "publishedDate": "2025-09-20",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 50m",
+    "rating": "4.7",
+    "reviews": 529,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Coaching Business Secrets - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 10673,
+    "sales": 234,
+    "publishedDate": "2026-01-11",
+    "pages": null,
+    "modules": 10,
+    "students": 172,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 624,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 147,
+    "title": "100 Ways to Automate - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 10498,
+    "sales": 154,
+    "publishedDate": "2025-09-21",
+    "pages": 236,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 784,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Building Your Personal Brand - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10374,
+    "sales": 168,
+    "publishedDate": "2026-01-11",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 30m",
+    "rating": "4.7",
+    "reviews": 219,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Email Marketing Mastery - Edition 1",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10309,
+    "sales": 290,
+    "publishedDate": "2025-12-03",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 57m",
+    "rating": "4.7",
+    "reviews": 699,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Digital Product Launch - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10220,
+    "sales": 285,
+    "publishedDate": "2026-01-07",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 34m",
+    "rating": "4.7",
+    "reviews": 179,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Revenue Streams Handbook - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10136,
+    "sales": 313,
+    "publishedDate": "2025-12-08",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 29m",
+    "rating": "4.7",
+    "reviews": 398,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "The 7-Figure Funnel - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10029,
+    "sales": 168,
+    "publishedDate": "2025-09-21",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 32m",
+    "rating": "4.8",
+    "reviews": 326,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "E-commerce Blueprint - Edition 10",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 10007,
+    "sales": 183,
+    "publishedDate": "2025-11-24",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "3h 19m",
+    "rating": "4.6",
+    "reviews": 653,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "The Autonomous Empire - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9930,
+    "sales": 146,
+    "publishedDate": "2026-01-22",
+    "pages": null,
+    "modules": 20,
+    "students": 747,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 95,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Affiliate Marketing Profits - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 9836,
+    "sales": 161,
+    "publishedDate": "2026-02-12",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 21m",
+    "rating": "4.6",
+    "reviews": 573,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Content Creation Mastery - Edition 8",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9825,
+    "sales": 200,
+    "publishedDate": "2026-01-21",
+    "pages": null,
+    "modules": 6,
+    "students": 630,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 717,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Social Media Domination - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 9766,
+    "sales": 172,
+    "publishedDate": "2026-02-13",
+    "pages": 293,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 379,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Sales Funnel Secrets - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9758,
+    "sales": 440,
+    "publishedDate": "2025-10-21",
+    "pages": null,
+    "modules": 14,
+    "students": 702,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 76,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Revenue Streams Handbook - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9608,
+    "sales": 150,
+    "publishedDate": "2026-02-09",
+    "pages": null,
+    "modules": 24,
+    "students": 680,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 649,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Coaching Business Secrets - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 9525,
+    "sales": 372,
+    "publishedDate": "2026-02-22",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 14m",
+    "rating": "4.8",
+    "reviews": 450,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 181,
+    "title": "The Solopreneur Playbook - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9442,
+    "sales": 304,
+    "publishedDate": "2026-02-01",
+    "pages": null,
+    "modules": 8,
+    "students": 198,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 644,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 163,
+    "title": "E-commerce Blueprint - Edition 8",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9437,
+    "sales": 253,
+    "publishedDate": "2025-09-20",
+    "pages": null,
+    "modules": 15,
+    "students": 176,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 668,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Customer Retention Strategies - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9238,
+    "sales": 177,
+    "publishedDate": "2025-12-14",
+    "pages": null,
+    "modules": 18,
+    "students": 317,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 307,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "E-commerce Blueprint - Edition 3",
+    "type": "book",
+    "status": "completed",
+    "revenue": 9209,
+    "sales": 303,
+    "publishedDate": "2025-11-26",
+    "pages": 239,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 380,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Passive Income Blueprint - Edition 2",
+    "type": "course",
+    "status": "completed",
+    "revenue": 9035,
+    "sales": 196,
+    "publishedDate": "2026-02-23",
+    "pages": null,
+    "modules": 21,
+    "students": 739,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 288,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "The Autonomous Empire - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 9011,
+    "sales": 443,
+    "publishedDate": "2025-10-14",
+    "pages": 448,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 521,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Sales Funnel Secrets - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 9000,
+    "sales": 164,
+    "publishedDate": "2025-10-12",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 35m",
+    "rating": "4.9",
+    "reviews": 549,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Passive Income Blueprint - Edition 10",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 8856,
+    "sales": 332,
+    "publishedDate": "2025-12-27",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 5m",
+    "rating": "4.9",
+    "reviews": 732,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Content Creation Mastery - Edition 1",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 8736,
+    "sales": 231,
+    "publishedDate": "2026-01-18",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 27m",
+    "rating": "4.7",
+    "reviews": 652,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Building Your Personal Brand - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 8690,
+    "sales": 171,
+    "publishedDate": "2025-11-28",
+    "pages": null,
+    "modules": 21,
+    "students": 698,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 268,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "The Solopreneur Playbook - Edition 6",
+    "type": "course",
+    "status": "completed",
+    "revenue": 8682,
+    "sales": 367,
+    "publishedDate": "2025-12-25",
+    "pages": null,
+    "modules": 23,
+    "students": 950,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 145,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 161,
+    "title": "The Solopreneur Playbook - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 8635,
+    "sales": 352,
+    "publishedDate": "2025-09-08",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 15m",
+    "rating": "4.9",
+    "reviews": 187,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Video Marketing Secrets - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 8628,
+    "sales": 219,
+    "publishedDate": "2026-01-13",
+    "pages": null,
+    "modules": 5,
+    "students": 360,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 128,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 213,
+    "title": "The 7-Figure Funnel - Edition 11",
+    "type": "book",
+    "status": "completed",
+    "revenue": 8557,
+    "sales": 199,
+    "publishedDate": "2025-10-24",
+    "pages": 294,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 164,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Email Marketing Mastery - Edition 8",
+    "type": "course",
+    "status": "completed",
+    "revenue": 8549,
+    "sales": 129,
+    "publishedDate": "2025-09-12",
+    "pages": null,
+    "modules": 9,
+    "students": 598,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 202,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Content Creation Mastery - Edition 5",
+    "type": "course",
+    "status": "completed",
+    "revenue": 8503,
+    "sales": 243,
+    "publishedDate": "2025-10-10",
+    "pages": null,
+    "modules": 16,
+    "students": 629,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 392,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Revenue Streams Handbook - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 8405,
+    "sales": 358,
+    "publishedDate": "2025-09-10",
+    "pages": 283,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 140,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Affiliate Marketing Profits - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 8401,
+    "sales": 172,
+    "publishedDate": "2025-09-04",
+    "pages": null,
+    "modules": 17,
+    "students": 758,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 177,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Content Creation Mastery - Edition 10",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 8222,
+    "sales": 141,
+    "publishedDate": "2026-01-26",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 58m",
+    "rating": "4.8",
+    "reviews": 195,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 167,
+    "title": "100 Ways to Automate - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 8199,
+    "sales": 183,
+    "publishedDate": "2025-09-14",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 1m",
+    "rating": "4.8",
+    "reviews": 481,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Affiliate Marketing Profits - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 8010,
+    "sales": 164,
+    "publishedDate": "2026-02-09",
+    "pages": 232,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 761,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Video Marketing Secrets - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 7911,
+    "sales": 143,
+    "publishedDate": "2026-02-26",
+    "pages": null,
+    "modules": 14,
+    "students": 483,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 559,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Social Media Domination - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 7846,
+    "sales": 112,
+    "publishedDate": "2026-01-24",
+    "pages": null,
+    "modules": 9,
+    "students": 303,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 667,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Video Marketing Secrets - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7804,
+    "sales": 150,
+    "publishedDate": "2025-10-05",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 58m",
+    "rating": "4.6",
+    "reviews": 154,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Content Creation Mastery - Edition 7",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7699,
+    "sales": 235,
+    "publishedDate": "2025-10-08",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 49m",
+    "rating": "4.8",
+    "reviews": 313,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Affiliate Marketing Profits - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7624,
+    "sales": 195,
+    "publishedDate": "2025-10-01",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "3h 2m",
+    "rating": "4.6",
+    "reviews": 770,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Coaching Business Secrets - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7547,
+    "sales": 124,
+    "publishedDate": "2025-09-14",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 18m",
+    "rating": "4.8",
+    "reviews": 496,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Copywriting for Conversion - Edition 8",
+    "type": "course",
+    "status": "completed",
+    "revenue": 7479,
+    "sales": 116,
+    "publishedDate": "2025-09-17",
+    "pages": null,
+    "modules": 22,
+    "students": 809,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 118,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Revenue Streams Handbook - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 7465,
+    "sales": 149,
+    "publishedDate": "2026-01-23",
+    "pages": 242,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 100,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Passive Income Blueprint - Edition 7",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7199,
+    "sales": 124,
+    "publishedDate": "2025-12-30",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 12m",
+    "rating": "4.7",
+    "reviews": 39,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "100 Ways to Automate - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 7141,
+    "sales": 190,
+    "publishedDate": "2025-11-28",
+    "pages": null,
+    "modules": 22,
+    "students": 787,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 757,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Digital Product Launch - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7110,
+    "sales": 121,
+    "publishedDate": "2025-09-25",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 50m",
+    "rating": "4.7",
+    "reviews": 798,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "The AI Money Machine - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7068,
+    "sales": 238,
+    "publishedDate": "2025-10-07",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 50m",
+    "rating": "4.8",
+    "reviews": 291,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Copywriting for Conversion - Edition 4",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 7000,
+    "sales": 150,
+    "publishedDate": "2026-02-24",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 3m",
+    "rating": "4.7",
+    "reviews": 331,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Passive Income Blueprint - Edition 11",
+    "type": "course",
+    "status": "completed",
+    "revenue": 6901,
+    "sales": 196,
+    "publishedDate": "2025-12-28",
+    "pages": null,
+    "modules": 12,
+    "students": 535,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 114,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Copywriting for Conversion - Edition 9",
+    "type": "book",
+    "status": "completed",
+    "revenue": 6643,
+    "sales": 245,
+    "publishedDate": "2025-11-23",
+    "pages": 329,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 612,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Passive Income Blueprint - Edition 9",
+    "type": "book",
+    "status": "completed",
+    "revenue": 6587,
+    "sales": 232,
+    "publishedDate": "2025-09-26",
+    "pages": 399,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 83,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Customer Retention Strategies - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 6573,
+    "sales": 117,
+    "publishedDate": "2025-11-17",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 49m",
+    "rating": "4.8",
+    "reviews": 705,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Coaching Business Secrets - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 6520,
+    "sales": 139,
+    "publishedDate": "2026-01-06",
+    "pages": null,
+    "modules": 10,
+    "students": 1040,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 772,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "100 Ways to Automate - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 6454,
+    "sales": 114,
+    "publishedDate": "2025-10-22",
+    "pages": null,
+    "modules": 17,
+    "students": 259,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 649,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Scaling to 7 Figures - Edition 6",
+    "type": "book",
+    "status": "completed",
+    "revenue": 6255,
+    "sales": 116,
+    "publishedDate": "2025-09-13",
+    "pages": 409,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 692,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Coaching Business Secrets - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 6247,
+    "sales": 178,
+    "publishedDate": "2025-10-24",
+    "pages": 335,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 562,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Sales Funnel Secrets - Edition 3",
+    "type": "course",
+    "status": "completed",
+    "revenue": 6085,
+    "sales": 281,
+    "publishedDate": "2026-02-02",
+    "pages": null,
+    "modules": 10,
+    "students": 974,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 93,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "The Autonomous Empire - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5999,
+    "sales": 105,
+    "publishedDate": "2025-11-01",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 20m",
+    "rating": "4.8",
+    "reviews": 97,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Copywriting for Conversion - Edition 10",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5955,
+    "sales": 88,
+    "publishedDate": "2025-12-23",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "5h 33m",
+    "rating": "4.7",
+    "reviews": 543,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "The Autonomous Empire - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5921,
+    "sales": 104,
+    "publishedDate": "2025-12-22",
+    "pages": 364,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 187,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Customer Retention Strategies - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5889,
+    "sales": 85,
+    "publishedDate": "2025-12-29",
+    "pages": 411,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 385,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Passive Income Blueprint - Edition 1",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5876,
+    "sales": 172,
+    "publishedDate": "2025-11-04",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 4m",
+    "rating": "4.7",
+    "reviews": 409,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Copywriting for Conversion - Edition 2",
+    "type": "course",
+    "status": "completed",
+    "revenue": 5852,
+    "sales": 95,
+    "publishedDate": "2025-10-07",
+    "pages": null,
+    "modules": 17,
+    "students": 804,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 719,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Building Your Personal Brand - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5852,
+    "sales": 136,
+    "publishedDate": "2026-01-05",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 28m",
+    "rating": "4.8",
+    "reviews": 721,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Building Your Personal Brand - Edition 11",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5816,
+    "sales": 210,
+    "publishedDate": "2025-12-12",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 55m",
+    "rating": "4.9",
+    "reviews": 709,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "The Solopreneur Playbook - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5802,
+    "sales": 91,
+    "publishedDate": "2025-11-13",
+    "pages": 429,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 505,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "100 Ways to Automate - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5792,
+    "sales": 102,
+    "publishedDate": "2025-11-15",
+    "pages": 191,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 46,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "The Solopreneur Playbook - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5752,
+    "sales": 156,
+    "publishedDate": "2025-09-14",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 31m",
+    "rating": "4.8",
+    "reviews": 555,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Video Marketing Secrets - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5724,
+    "sales": 141,
+    "publishedDate": "2025-12-24",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 2m",
+    "rating": "4.7",
+    "reviews": 816,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Copywriting for Conversion - Edition 6",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5539,
+    "sales": 196,
+    "publishedDate": "2025-12-22",
+    "pages": 438,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 124,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Affiliate Marketing Profits - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 5504,
+    "sales": 84,
+    "publishedDate": "2026-02-15",
+    "pages": null,
+    "modules": 8,
+    "students": 653,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 750,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Customer Retention Strategies - Edition 3",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5458,
+    "sales": 161,
+    "publishedDate": "2025-12-30",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 15m",
+    "rating": "4.9",
+    "reviews": 779,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Digital Product Launch - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5436,
+    "sales": 118,
+    "publishedDate": "2025-11-11",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "3h 15m",
+    "rating": "4.8",
+    "reviews": 553,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Content Creation Mastery - Edition 6",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5383,
+    "sales": 248,
+    "publishedDate": "2026-02-19",
+    "pages": 216,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 409,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "E-commerce Blueprint - Edition 5",
+    "type": "course",
+    "status": "completed",
+    "revenue": 5272,
+    "sales": 112,
+    "publishedDate": "2026-01-06",
+    "pages": null,
+    "modules": 24,
+    "students": 745,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 571,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Customer Retention Strategies - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 5249,
+    "sales": 106,
+    "publishedDate": "2025-12-11",
+    "pages": null,
+    "modules": 19,
+    "students": 539,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 159,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "The 7-Figure Funnel - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 5147,
+    "sales": 88,
+    "publishedDate": "2026-01-01",
+    "pages": null,
+    "modules": 6,
+    "students": 818,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 627,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 146,
+    "title": "The AI Money Machine - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 5126,
+    "sales": 181,
+    "publishedDate": "2026-02-04",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 4m",
+    "rating": "4.6",
+    "reviews": 213,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Sales Funnel Secrets - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5045,
+    "sales": 161,
+    "publishedDate": "2026-01-29",
+    "pages": 309,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 758,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "The 7-Figure Funnel - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 5014,
+    "sales": 136,
+    "publishedDate": "2025-10-11",
+    "pages": 271,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 796,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Content Creation Mastery - Edition 3",
+    "type": "book",
+    "status": "completed",
+    "revenue": 4905,
+    "sales": 74,
+    "publishedDate": "2025-10-24",
+    "pages": 263,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 148,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Scaling to 7 Figures - Edition 10",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 4795,
+    "sales": 155,
+    "publishedDate": "2025-09-09",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 18m",
+    "rating": "4.7",
+    "reviews": 38,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "100 Ways to Automate - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 4791,
+    "sales": 102,
+    "publishedDate": "2025-12-24",
+    "pages": 163,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 421,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Audiobook: book 1",
+    "type": "audiobook",
+    "filename": "book_1.mp3",
+    "status": "completed",
+    "revenue": 4752,
+    "sales": 113,
+    "publishedDate": "2026-02-14",
+    "duration": "1h 3m",
+    "narrator": "Professional Voice",
+    "audioUrl": "/audio/book_1.mp3",
+    "rating": "4.9",
+    "reviews": 61,
+    "fileSize": "0.16 MB",
+    "platforms": [
+      "Audible",
+      "Apple Books",
+      "Spotify"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "E-commerce Blueprint - Edition 6",
+    "type": "book",
+    "status": "completed",
+    "revenue": 4594,
+    "sales": 68,
+    "publishedDate": "2025-12-17",
+    "pages": 429,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 595,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Revenue Streams Handbook - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 4267,
+    "sales": 72,
+    "publishedDate": "2025-12-03",
+    "pages": null,
+    "modules": 18,
+    "students": 1041,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 602,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Sales Funnel Secrets - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 4255,
+    "sales": 63,
+    "publishedDate": "2025-11-06",
+    "pages": 439,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 649,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Copywriting for Conversion - Edition 3",
+    "type": "book",
+    "status": "completed",
+    "revenue": 4229,
+    "sales": 72,
+    "publishedDate": "2025-09-08",
+    "pages": 416,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 378,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Email Marketing Mastery - Edition 2",
+    "type": "course",
+    "status": "completed",
+    "revenue": 4151,
+    "sales": 64,
+    "publishedDate": "2025-10-07",
+    "pages": null,
+    "modules": 8,
+    "students": 167,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 290,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Digital Product Launch - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 4110,
+    "sales": 78,
+    "publishedDate": "2026-01-28",
+    "pages": 413,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 141,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Audiobook: book 2",
+    "type": "audiobook",
+    "filename": "book_2.mp3",
+    "status": "completed",
+    "revenue": 4007,
+    "sales": 144,
+    "publishedDate": "2026-02-10",
+    "duration": "1h 3m",
+    "narrator": "Professional Voice",
+    "audioUrl": "/audio/book_2.mp3",
+    "rating": "4.7",
+    "reviews": 442,
+    "fileSize": "0.17 MB",
+    "platforms": [
+      "Audible",
+      "Apple Books",
+      "Spotify"
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Passive Income Blueprint - Edition 8",
+    "type": "course",
+    "status": "completed",
+    "revenue": 3864,
+    "sales": 71,
+    "publishedDate": "2026-01-25",
+    "pages": null,
+    "modules": 7,
+    "students": 1022,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 572,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "The AI Money Machine - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 3805,
+    "sales": 81,
+    "publishedDate": "2025-11-16",
+    "pages": 211,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 571,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Building Your Personal Brand - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 3607,
+    "sales": 75,
+    "publishedDate": "2025-11-20",
+    "pages": 153,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 580,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Digital Product Launch - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 3578,
+    "sales": 143,
+    "publishedDate": "2025-09-07",
+    "pages": 173,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 347,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 149,
+    "title": "The Autonomous Empire - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 3568,
+    "sales": 172,
+    "publishedDate": "2025-10-06",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 51m",
+    "rating": "4.9",
+    "reviews": 209,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Social Media Domination - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 3509,
+    "sales": 78,
+    "publishedDate": "2025-11-11",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 20m",
+    "rating": "4.9",
+    "reviews": 759,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "100 Ways to Automate - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 3415,
+    "sales": 61,
+    "publishedDate": "2025-11-02",
+    "pages": null,
+    "modules": 17,
+    "students": 112,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 339,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "The AI Money Machine - Edition 11",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 3353,
+    "sales": 85,
+    "publishedDate": "2026-01-03",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 40m",
+    "rating": "4.9",
+    "reviews": 177,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "The Autonomous Empire - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 3323,
+    "sales": 87,
+    "publishedDate": "2026-01-09",
+    "pages": 163,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 408,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Social Media Domination - Edition 8",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 3302,
+    "sales": 76,
+    "publishedDate": "2026-02-26",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "7h 21m",
+    "rating": "4.8",
+    "reviews": 465,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Coaching Business Secrets - Edition 8",
+    "type": "book",
+    "status": "completed",
+    "revenue": 3205,
+    "sales": 114,
+    "publishedDate": "2026-01-29",
+    "pages": 380,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 787,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Passive Income Blueprint - Edition 5",
+    "type": "course",
+    "status": "completed",
+    "revenue": 3096,
+    "sales": 75,
+    "publishedDate": "2025-12-08",
+    "pages": null,
+    "modules": 10,
+    "students": 510,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 450,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Revenue Streams Handbook - Edition 11",
+    "type": "book",
+    "status": "completed",
+    "revenue": 3061,
+    "sales": 61,
+    "publishedDate": "2025-10-03",
+    "pages": 388,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 107,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Copywriting for Conversion - Edition 5",
+    "type": "course",
+    "status": "completed",
+    "revenue": 2992,
+    "sales": 48,
+    "publishedDate": "2026-01-03",
+    "pages": null,
+    "modules": 15,
+    "students": 544,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 704,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Email Marketing Mastery - Edition 10",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 2910,
+    "sales": 42,
+    "publishedDate": "2026-01-22",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 43m",
+    "rating": "4.6",
+    "reviews": 304,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Scaling to 7 Figures - Edition 8",
+    "type": "course",
+    "status": "completed",
+    "revenue": 2862,
+    "sales": 98,
+    "publishedDate": "2026-01-25",
+    "pages": null,
+    "modules": 14,
+    "students": 592,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 301,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Audiobook: book 3",
+    "type": "audiobook",
+    "filename": "book_3.mp3",
+    "status": "completed",
+    "revenue": 2819,
+    "sales": 220,
+    "publishedDate": "2026-02-23",
+    "duration": "1h 3m",
+    "narrator": "Professional Voice",
+    "audioUrl": "/audio/book_3.mp3",
+    "rating": "4.8",
+    "reviews": 166,
+    "fileSize": "0.16 MB",
+    "platforms": [
+      "Audible",
+      "Apple Books",
+      "Spotify"
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Social Media Domination - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 2808,
+    "sales": 46,
+    "publishedDate": "2025-11-28",
+    "pages": null,
+    "modules": 18,
+    "students": 448,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 695,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "The 7-Figure Funnel - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 2799,
+    "sales": 62,
+    "publishedDate": "2025-09-06",
+    "pages": 299,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 704,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Revenue Streams Handbook - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 2587,
+    "sales": 92,
+    "publishedDate": "2025-10-27",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 59m",
+    "rating": "4.8",
+    "reviews": 456,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Email Marketing Mastery - Edition 7",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 2564,
+    "sales": 111,
+    "publishedDate": "2026-02-19",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "2h 56m",
+    "rating": "4.7",
+    "reviews": 109,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Customer Retention Strategies - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 2563,
+    "sales": 55,
+    "publishedDate": "2025-09-03",
+    "pages": null,
+    "modules": 18,
+    "students": 140,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 612,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Passive Income Blueprint - Edition 3",
+    "type": "book",
+    "status": "completed",
+    "revenue": 2508,
+    "sales": 46,
+    "publishedDate": "2025-09-07",
+    "pages": 362,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 791,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Audiobook: book 4",
+    "type": "audiobook",
+    "filename": "book_4.mp3",
+    "status": "completed",
+    "revenue": 2464,
+    "sales": 82,
+    "publishedDate": "2026-02-18",
+    "duration": "1h 3m",
+    "narrator": "Professional Voice",
+    "audioUrl": "/audio/book_4.mp3",
+    "rating": "4.8",
+    "reviews": 269,
+    "fileSize": "0.17 MB",
+    "platforms": [
+      "Audible",
+      "Apple Books",
+      "Spotify"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "E-commerce Blueprint - Edition 1",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 2420,
+    "sales": 51,
+    "publishedDate": "2025-11-20",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 50m",
+    "rating": "4.7",
+    "reviews": 120,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Customer Retention Strategies - Edition 4",
+    "type": "course",
+    "status": "completed",
+    "revenue": 2388,
+    "sales": 56,
+    "publishedDate": "2025-09-27",
+    "pages": null,
+    "modules": 19,
+    "students": 901,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 612,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "E-commerce Blueprint - Edition 2",
+    "type": "course",
+    "status": "completed",
+    "revenue": 2375,
+    "sales": 63,
+    "publishedDate": "2026-02-04",
+    "pages": null,
+    "modules": 5,
+    "students": 829,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 164,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Building Your Personal Brand - Edition 10",
+    "type": "book",
+    "status": "completed",
+    "revenue": 2251,
+    "sales": 78,
+    "publishedDate": "2025-11-15",
+    "pages": 246,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 73,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Email Marketing Mastery - Edition 9",
+    "type": "book",
+    "status": "completed",
+    "revenue": 2134,
+    "sales": 32,
+    "publishedDate": "2025-09-10",
+    "pages": 324,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 589,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "The AI Money Machine - Edition 7",
+    "type": "book",
+    "status": "completed",
+    "revenue": 2130,
+    "sales": 30,
+    "publishedDate": "2025-10-22",
+    "pages": 161,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 635,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 169,
+    "title": "The Autonomous Empire - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 1969,
+    "sales": 74,
+    "publishedDate": "2026-01-04",
+    "pages": null,
+    "modules": 20,
+    "students": 629,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 609,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 187,
+    "title": "100 Ways to Automate - Edition 10",
+    "type": "course",
+    "status": "completed",
+    "revenue": 1958,
+    "sales": 50,
+    "publishedDate": "2026-01-19",
+    "pages": null,
+    "modules": 11,
+    "students": 295,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 328,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "The 7-Figure Funnel - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 1919,
+    "sales": 35,
+    "publishedDate": "2025-10-10",
+    "pages": 309,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 371,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Customer Retention Strategies - Edition 5",
+    "type": "book",
+    "status": "completed",
+    "revenue": 1824,
+    "sales": 67,
+    "publishedDate": "2025-11-27",
+    "pages": 336,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 553,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "The AI Money Machine - Edition 2",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 1761,
+    "sales": 54,
+    "publishedDate": "2025-09-30",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "3h 22m",
+    "rating": "4.9",
+    "reviews": 251,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Customer Retention Strategies - Edition 2",
+    "type": "book",
+    "status": "completed",
+    "revenue": 1575,
+    "sales": 56,
+    "publishedDate": "2025-09-20",
+    "pages": 368,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 352,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Revenue Streams Handbook - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 1520,
+    "sales": 27,
+    "publishedDate": "2025-12-15",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 36m",
+    "rating": "4.9",
+    "reviews": 196,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Building Your Personal Brand - Edition 4",
+    "type": "book",
+    "status": "completed",
+    "revenue": 1324,
+    "sales": 23,
+    "publishedDate": "2025-12-20",
+    "pages": 371,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.6",
+    "reviews": 455,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Coaching Business Secrets - Edition 9",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 1306,
+    "sales": 26,
+    "publishedDate": "2026-02-11",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "4h 10m",
+    "rating": "4.9",
+    "reviews": 125,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Sales Funnel Secrets - Edition 5",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 1278,
+    "sales": 19,
+    "publishedDate": "2026-01-22",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "9h 55m",
+    "rating": "4.8",
+    "reviews": 135,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Email Marketing Mastery - Edition 4",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 1122,
+    "sales": 28,
+    "publishedDate": "2025-10-01",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "6h 11m",
+    "rating": "4.6",
+    "reviews": 98,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Sales Funnel Secrets - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 958,
+    "sales": 22,
+    "publishedDate": "2025-12-05",
+    "pages": 287,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 743,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Audiobook: book 5",
+    "type": "audiobook",
+    "filename": "book_5.mp3",
+    "status": "completed",
+    "revenue": 861,
+    "sales": 29,
+    "publishedDate": "2026-02-11",
+    "duration": "1h 3m",
+    "narrator": "Professional Voice",
+    "audioUrl": "/audio/book_5.mp3",
+    "rating": "4.8",
+    "reviews": 219,
+    "fileSize": "0.16 MB",
+    "platforms": [
+      "Audible",
+      "Apple Books",
+      "Spotify"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Digital Product Launch - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 813,
+    "sales": 12,
+    "publishedDate": "2025-11-13",
+    "pages": 415,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 501,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Sales Funnel Secrets - Edition 9",
+    "type": "course",
+    "status": "completed",
+    "revenue": 803,
+    "sales": 13,
+    "publishedDate": "2025-10-25",
+    "pages": null,
+    "modules": 11,
+    "students": 795,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 609,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "100 Ways to Automate - Edition 6",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 706,
+    "sales": 14,
+    "publishedDate": "2025-12-17",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 6m",
+    "rating": "4.8",
+    "reviews": 604,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Revenue Streams Handbook - Edition 7",
+    "type": "course",
+    "status": "completed",
+    "revenue": 679,
+    "sales": 11,
+    "publishedDate": "2025-10-01",
+    "pages": null,
+    "modules": 18,
+    "students": 1085,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 422,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Social Media Domination - Edition 1",
+    "type": "book",
+    "status": "completed",
+    "revenue": 660,
+    "sales": 10,
+    "publishedDate": "2025-11-02",
+    "pages": 400,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.8",
+    "reviews": 269,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Coaching Business Secrets - Edition 1",
+    "type": "course",
+    "status": "completed",
+    "revenue": 648,
+    "sales": 25,
+    "publishedDate": "2026-02-20",
+    "pages": null,
+    "modules": 20,
+    "students": 746,
+    "duration": null,
+    "rating": "4.7",
+    "reviews": 615,
+    "platforms": [
+      "Udemy",
+      "Teachable",
+      "Gumroad"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Passive Income Blueprint - Edition 4",
+    "type": "audiobook",
+    "status": "completed",
+    "revenue": 644,
+    "sales": 11,
+    "publishedDate": "2026-01-06",
+    "pages": null,
+    "modules": null,
+    "students": null,
+    "duration": "8h 17m",
+    "rating": "4.6",
+    "reviews": 591,
+    "platforms": [
+      "Audible",
+      "Apple Books"
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Content Creation Mastery - Edition 9",
+    "type": "book",
+    "status": "completed",
+    "revenue": 596,
+    "sales": 17,
+    "publishedDate": "2025-11-25",
+    "pages": 354,
+    "modules": null,
+    "students": null,
+    "duration": null,
+    "rating": "4.9",
+    "reviews": 239,
+    "platforms": [
+      "Amazon KDP",
+      "Apple Books",
+      "Google Play"
+    ]
+  }
+]

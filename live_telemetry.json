@@ -1,0 +1,122 @@
+{
+  "Video-Agent-7": {
+    "task": "Synthesizing: Scene-7 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:28 PM"
+  },
+  "Audio-Synth": {
+    "task": "Rendering: Chapter 4 Audio",
+    "progress": "18%",
+    "status": "ACTIVE",
+    "timestamp": "6:11:50 PM"
+  },
+  "Video-Agent-8": {
+    "task": "Synthesizing: Scene-8 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:29 PM"
+  },
+  "Video-Agent-9": {
+    "task": "Synthesizing: Scene-9 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:29 PM"
+  },
+  "Video-Agent-10": {
+    "task": "Synthesizing: Scene-10 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:29 PM"
+  },
+  "Video-Agent-11": {
+    "task": "Synthesizing: Scene-11 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:29 PM"
+  },
+  "Video-Agent-12": {
+    "task": "Synthesizing: Scene-12 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:30 PM"
+  },
+  "Video-Agent-13": {
+    "task": "Synthesizing: Scene-13 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:30 PM"
+  },
+  "Audio-Vocalist-1": {
+    "task": "Narrating: Agentic_AI_in_Manufacturing",
+    "progress": "10%",
+    "status": "ACTIVE",
+    "timestamp": "5:53:42 PM"
+  },
+  "Price-Optimizer": {
+    "task": "Averaging: $197.00 AUD",
+    "progress": "100%",
+    "status": "ACTIVE",
+    "timestamp": "5:57:27 PM"
+  },
+  "Video-Agent-1": {
+    "task": "Synthesizing: Scene-1 4K",
+    "progress": "2%",
+    "status": 1,
+    "timestamp": "7:55:51 PM"
+  },
+  "Video-Agent-2": {
+    "task": "Synthesizing: Scene-2 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:27 PM"
+  },
+  "Video-Agent-3": {
+    "task": "Synthesizing: Scene-3 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:27 PM"
+  },
+  "Video-Agent-4": {
+    "task": "Synthesizing: Scene-4 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:28 PM"
+  },
+  "Video-Agent-5": {
+    "task": "Synthesizing: Scene-5 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:28 PM"
+  },
+  "Video-Agent-6": {
+    "task": "Synthesizing: Scene-6 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:28 PM"
+  },
+  "Video-Agent-14": {
+    "task": "Synthesizing: Scene-14 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:30 PM"
+  },
+  "Video-Agent-15": {
+    "task": "Synthesizing: Scene-15 4K",
+    "progress": "24%",
+    "status": 1,
+    "timestamp": "5:57:30 PM"
+  },
+  "Script-Writer": {
+    "task": "Monitoring Flow...",
+    "progress": "0%",
+    "status": "ACTIVE",
+    "timestamp": "6:07:41 PM"
+  },
+  "Sales-Swarm": {
+    "task": "Scouting: Kobo Global",
+    "progress": "ACTIVE%",
+    "status": "ACTIVE",
+    "timestamp": "3:31:49 AM"
+  }
+}

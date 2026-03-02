@@ -1,0 +1,664 @@
+{
+  "entity": "Lou's AI Specialists",
+  "abn": "54 492 524 823",
+  "audit_date": "2/27/2026",
+  "total_assets": 131,
+  "rights_holder": "Ljupco (Louie) Arsovski",
+  "assets": [
+    {
+      "sku": "Agentic_AI_in_Manufacturing.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Agentic_AI_in_Manufacturing_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Agentic_AI_in_Manufacturing_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Autonomous_Freight_Protocols.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Autonomous_Freight_Protocols_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Autonomous_Freight_Protocols_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Circular_Economy_Industrial_Loops.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Circular_Economy_Industrial_Loops_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Circular_Economy_Industrial_Loops_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Collaborative_Robot_Optimization.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Collaborative_Robot_Optimization_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Collaborative_Robot_Optimization_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Cybersecurity_for_Connected_Factories.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Cybersecurity_for_Connected_Factories_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Cybersecurity_for_Connected_Factories_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Edge_Computing_for_Factory_Floors.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Edge_Computing_for_Factory_Floors_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Edge_Computing_for_Factory_Floors_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Global_Port_Efficiency_Systems.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Global_Port_Efficiency_Systems_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Global_Port_Efficiency_Systems_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Hyper-Localized_Supply_Chains.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Hyper-Localized_Supply_Chains_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Hyper-Localized_Supply_Chains_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Inventory_Sensing_with_IIoT.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Inventory_Sensing_with_IIoT_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Inventory_Sensing_with_IIoT_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Last-Mile_AI_Optimization.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Last-Mile_AI_Optimization_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Last-Mile_AI_Optimization_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Last_Mile_Location_Intelligence.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Last_Mile_Location_Intelligence_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Last_Mile_Location_Intelligence_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Machine_Learning_for_Defect_Detection.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Machine_Learning_for_Defect_Detection_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Machine_Learning_for_Defect_Detection_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "OEE_Maximization_via_AI.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "OEE_Maximization_via_AI_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "OEE_Maximization_via_AI_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Predictive_Robot_Maintenance_2026.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Predictive_Robot_Maintenance_2026_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Predictive_Robot_Maintenance_2026_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Sustainable_Supply_Chain_Blueprints.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Sustainable_Supply_Chain_Blueprints_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "Sustainable_Supply_Chain_Blueprints_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_Autonomous_Logistics_Hub.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_Autonomous_Logistics_Hub_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_Autonomous_Logistics_Hub_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_Digital_Twin_Revolution.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_Digital_Twin_Revolution_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_Digital_Twin_Revolution_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_OEE_Advantage.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_OEE_Advantage_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "The_OEE_Advantage_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "book_1.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "book_2.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "book_3.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "book_4.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "book_5.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772077521.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772077581.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772077641.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772077701.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078361.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078421.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078481.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078541.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078601.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078661.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078721.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078781.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078841.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078901.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772078961.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079021.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079081.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079141.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079201.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079261.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079321.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079381.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079441.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079501.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079561.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079621.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079681.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079741.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079801.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079861.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079921.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772079981.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080041.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080101.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080161.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080221.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080281.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080341.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080401.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080461.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080521.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080581.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080641.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080701.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080761.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080821.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080881.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772080941.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081001.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081061.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081121.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081181.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081241.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081301.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081361.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081421.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081481.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081541.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081601.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081661.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081721.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081781.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081841.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081901.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772081961.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772082021.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "nexus_intel_1772082081.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "test_dispatch.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "the_ai_sovereign.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "the_ai_sovereign_es.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "the_ai_sovereign_ja.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    },
+    {
+      "sku": "verify_scribe.txt.done",
+      "royalty_structure": "100% Direct",
+      "protection_level": "Sovereign-Commercial-Sealed"
+    }
+  ]
+}

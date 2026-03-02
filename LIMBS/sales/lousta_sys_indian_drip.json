@@ -1,0 +1,9 @@
+{
+  "market": "India",
+  "timezone": "IST",
+  "schedule": [
+    {"time": "08:30", "asset": "clip_1.mp4", "tags": ["#AITrends2026", "#AgenticManufacturing"]},
+    {"time": "13:30", "asset": "clip_2.mp4", "tags": ["#MSMEIndia", "#SovereignAI"]},
+    {"time": "20:45", "asset": "clip_4.mp4", "tags": ["#IndustrialAI", "#LoustaBooks"]}
+  ]
+}

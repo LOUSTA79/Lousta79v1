@@ -1,0 +1,30 @@
+WEEK 1 - DEPLOYMENT
+☐ Verify Stripe live keys (in .env)
+☐ Check Node.js: node --version
+☐ Check PM2: pm2 --version
+☐ Start all handlers: pm2 start ecosystem.config.js
+☐ Verify: pm2 list (all online)
+☐ Test: curl http://localhost:3011/payment-methods
+
+MONTH 1 - FOUNDATION
+☐ Monitor revenue.json daily
+☐ Setup SendGrid email (optional, Week 2)
+☐ Document first transactions
+☐ Review logs: pm2 logs
+
+MONTH 2 - EMAIL & ADS
+☐ Email sequences active
+☐ Ad campaign test ($1K)
+☐ Monitor CPA < $15
+☐ Optimize daily
+
+MONTH 3-4 - MULTI-MARKET
+☐ Expand to 4 markets
+☐ Scale budget to $10K/month
+☐ Hit $5K profit milestone
+☐ Payout triggered
+
+MONTH 5-12 - SCALE & OPTIMIZE
+☐ 8+ markets live
+☐ $100K+/month revenue
+☐ $340K+ annual profit

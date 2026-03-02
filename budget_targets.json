@@ -1,0 +1,13 @@
+{
+  "2026": {
+    "02": { "target": 4250, "label": "Ramp-Up" },
+    "03": { "target": 12500, "label": "Global On-Ramping" },
+    "04": { "target": 18400, "label": "Language Scaling" },
+    "05": { "target": 24200, "label": "Format Bundling" },
+    "06": { "target": 31500, "label": "EOFY Surge (AU)" },
+    "07": { "target": 29800, "label": "Summer Maturity" },
+    "08": { "target": 38600, "label": "Lights-Out Optimization" }
+  },
+  "currency": "AUD",
+  "total_6mo_forecast": 155000
+}

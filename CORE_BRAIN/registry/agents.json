@@ -1,0 +1,158 @@
+{
+  "stripe_agent": {
+    "type": "node",
+    "path": "LIMBS/stripe/stripe_agent.js",
+    "mode": "ACTIVE",
+    "desc": "Stripe watcher/processor"
+  },
+  "stripe_webhook_agent": {
+    "type": "node",
+    "path": "LIMBS/stripe/stripe_webhook_agent.js",
+    "mode": "ACTIVE",
+    "desc": "Stripe webhook agent"
+  },
+  "stripe_sentinel": {
+    "type": "node",
+    "path": "LIMBS/stripe/stripe_sentinel.js",
+    "mode": "ACTIVE",
+    "desc": "Stripe sentinel / guard"
+  },
+  "stripe_maintenance_guard": {
+    "type": "node",
+    "path": "LIMBS/stripe/stripe_maintenance_guard.js",
+    "mode": "ACTIVE",
+    "desc": "Maintenance + safety guard"
+  },
+  "stripe_live_revenue": {
+    "type": "node",
+    "path": "LIMBS/stripe/stripe_live_revenue.js",
+    "mode": "ACTIVE",
+    "desc": "Live revenue polling"
+  },
+  "stripe_sales_bridge": {
+    "type": "node",
+    "path": "LIMBS/stripe/stripe_sales_bridge.js",
+    "mode": "ACTIVE",
+    "desc": "Sales bridge between systems"
+  },
+  "dashboard_node": {
+    "type": "node",
+    "path": "LIMBS/dashboards/dashboard.js",
+    "mode": "IDLE_OK",
+    "desc": "Node dashboard server"
+  },
+  "live_dashboard": {
+    "type": "node",
+    "path": "LIMBS/dashboards/live_dashboard.js",
+    "mode": "IDLE_OK",
+    "desc": "Live dashboard view"
+  },
+  "sync_dashboard": {
+    "type": "node",
+    "path": "LIMBS/dashboards/sync_dashboard.js",
+    "mode": "IDLE_OK",
+    "desc": "Dashboard sync"
+  },
+  "books_sales_dashboard": {
+    "type": "node",
+    "path": "LIMBS/dashboards/books_sales_dashboard.js",
+    "mode": "IDLE_OK",
+    "desc": "Books sales dashboard"
+  },
+  "orchestrator": {
+    "type": "node",
+    "path": "CORE_BRAIN/hub/orchestrator.js",
+    "mode": "ACTIVE",
+    "desc": "Main orchestrator"
+  },
+  "sequential_orchestrator": {
+    "type": "node",
+    "path": "CORE_BRAIN/hub/sequential_orchestrator.js",
+    "mode": "ACTIVE",
+    "desc": "Sequential orchestrator"
+  },
+  "swarm_orchestrator": {
+    "type": "node",
+    "path": "CORE_BRAIN/hub/swarm_orchestrator.js",
+    "mode": "ACTIVE",
+    "desc": "Swarm orchestrator"
+  },
+  "audio_orchestrator": {
+    "type": "node",
+    "path": "CORE_BRAIN/hub/audio_orchestrator.js",
+    "mode": "ACTIVE",
+    "desc": "Audio orchestrator"
+  },
+  "live_sync_orchestrator": {
+    "type": "node",
+    "path": "CORE_BRAIN/hub/live_sync_orchestrator.js",
+    "mode": "ACTIVE",
+    "desc": "Live sync orchestrator"
+  },
+  "payment_hub": {
+    "type": "node",
+    "path": "LIMBS/sales/payment_hub.js",
+    "mode": "ACTIVE",
+    "desc": "Multi-processor payment hub"
+  },
+  "book_gen": {
+    "type": "node",
+    "path": "LIMBS/publishing/autonomous_book_gen.js",
+    "mode": "ACTIVE",
+    "desc": "Autonomous book generator"
+  },
+  "email_automation": {
+    "type": "node",
+    "path": "LIMBS/growth/email_automation.js",
+    "mode": "ACTIVE",
+    "desc": "Email automation sequence"
+  },
+  "affiliate_engine": {
+    "type": "node",
+    "path": "LIMBS/sales/affiliate_engine.js",
+    "mode": "ACTIVE",
+    "desc": "Affiliate commission tracker"
+  },
+  "membership_engine": {
+    "type": "node",
+    "path": "LIMBS/sales/membership_engine.js",
+    "mode": "ACTIVE",
+    "desc": "Membership and subscription engine"
+  },
+  "live_feed": {
+    "type": "node",
+    "path": "LIMBS/dashboards/live_feed.js",
+    "mode": "IDLE_OK",
+    "desc": "Live activity feed"
+  },
+  "revenue_monitor": {
+    "type": "node",
+    "path": "LIMBS/dashboards/revenue_monitor.js",
+    "mode": "IDLE_OK",
+    "desc": "Revenue tracking dashboard"
+  },
+  "syndication_swarm": {
+    "type": "python",
+    "path": "LIMBS/publishing/lousta_sys_syndication_swarm.py",
+    "mode": "ACTIVE",
+    "desc": "Multi-platform swarm distributor"
+  },
+  "media_swarm": {
+    "type": "python",
+    "path": "LIMBS/publishing/lousta_sys_media_swarm.py",
+    "mode": "ACTIVE",
+    "desc": "Multimedia asset generator"
+  },
+  "openclaw_architect": {
+    "type": "node",
+    "path": "CORE_BRAIN/openclaw/main.js",
+    "mode": "ACTIVE",
+    "desc": "OpenClaw Senior Architect for Swarm Logic"
+  },
+  "global_translator": {
+    "type": "python",
+    "path": "LIMBS/publishing/lousta_sys_global_translator.py",
+    "mode": "ACTIVE",
+    "desc": "International Metadata Localization Agent"
+  }
+}

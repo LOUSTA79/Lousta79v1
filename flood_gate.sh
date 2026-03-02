@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/.lousta_system_core/global_flood_trigger.sh

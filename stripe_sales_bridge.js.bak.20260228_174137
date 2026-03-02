@@ -1,0 +1,66 @@
+"use strict";
+
+require("dotenv").config();
+const fs = require("fs");
+const path = require("path");
+const express = require("express");
+const Stripe = require("stripe");
+
+const PORT = Number(process.env.PORT || 3009);
+const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY || "";
+const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
+
+if (!STRIPE_SECRET_KEY.startsWith("sk_")) {
+  console.error("❌ Missing/invalid STRIPE_SECRET_KEY in .env");
+  process.exit(1);
+}
+if (!STRIPE_WEBHOOK_SECRET.startsWith("whsec_")) {
+  console.error("❌ Missing/invalid STRIPE_WEBHOOK_SECRET in .env");
+  process.exit(1);
+}
+
+const stripe = new Stripe(STRIPE_SECRET_KEY, { apiVersion: "2024-06-20" });
+const app = express();
+
+app.get("/health", (_req, res) => res.send("OK"));
+
+app.post("/webhook/stripe", express.raw({ type: "application/json" }), (req, res) => {
+  const sig = req.headers["stripe-signature"];
+
+  let event;
+  try {
+    event = stripe.webhooks.constructEvent(req.body, sig, STRIPE_WEBHOOK_SECRET);
+  } catch (err) {
+    console.error("❌ Signature verification failed:", err.message);
+    return res.status(400).send("Bad signature");
+  }
+
+  try {
+    const qdir = path.join(process.env.HOME || ".", ".lousta_system_core", "queue");
+    fs.mkdirSync(qdir, { recursive: true });
+    const qfile = path.join(qdir, "stripe_events.jsonl");
+
+    fs.appendFileSync(
+      qfile,
+      JSON.stringify({
+        received_at: new Date().toISOString(),
+        id: event.id,
+        type: event.type,
+        livemode: event.livemode,
+        data: event.data
+      }) + "\n"
+    );
+
+    console.log(`✅ QUEUED: ${event.type} | ${event.id}`);
+  } catch (e) {
+    console.error("❌ Queue write failed:", e.message);
+    return res.status(500).send("Queue write failed");
+  }
+
+  res.json({ received: true });
+});
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`🚀 STRIPE BRIDGE ONLINE: http://0.0.0.0:${PORT}`);
+  console.log(`➡️ Webhook endpoint: /webhook/stripe`);
+});

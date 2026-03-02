@@ -1,0 +1,24 @@
+IMMEDIATE ACTIONS:
+
+1. Verify environment:
+   echo $STRIPE_SECRET_KEY (should start with sk_live_)
+   node --version (should be 16+)
+   pm2 --version (should show version)
+
+2. Check existing handlers:
+   pm2 list
+   (Count how many are online)
+
+3. Start/restart all:
+   pm2 start ecosystem.config.js
+   pm2 save
+
+4. Monitor revenue:
+   cat revenue.json
+   (or: ./revenue_monitor.sh)
+
+5. Test endpoints:
+   curl http://localhost:3011/payment-methods
+   curl http://localhost:3012/subscriptions/tiers
+
+IF ERRORS: Check logs with pm2 logs
