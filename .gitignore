@@ -42,3 +42,11 @@ RUNTIME/backups/
 # --- dependencies ---
 node_modules/
 node_modules/
+
+# Secrets
+.env
+.env.*
+*.env
+*.bak
+*.key
+*.pem
