@@ -10,7 +10,21 @@ slugify() {
   printf "%s" "${s:-untitled}"
 }
 
+# Topic comes ONLY from env or argv (never from piped output)
 TOPIC="${TOPIC:-${1:-}}"
+# Trim leading/trailing whitespace
+TOPIC="$(printf "%s" "$TOPIC" | sed -e 's/^[[:space:]]\+//' -e 's/[[:space:]]\+$//')"
+if [ -z "$TOPIC" ]; then
+  echo "Usage: $0 <TOPIC>" >&2
+  exit 2
+fi
+
+# Guard: reject dangerous characters (paths / shell metacharacters / log-token separators)
+if printf "%s" "$TOPIC" | rg -q '[:/\\[\]\(\)\{\}<>|`$;&]'; then
+  echo "❌ Bad TOPIC value: $TOPIC (contains forbidden characters)" >&2
+  exit 2
+fi
+
 if [[ -z "$TOPIC" ]]; then
   echo "❌ Missing TOPIC"
   exit 1
