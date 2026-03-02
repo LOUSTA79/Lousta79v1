@@ -50,3 +50,13 @@ node_modules/
 *.bak
 *.key
 *.pem
+
+# Generated runtime artifacts (do not commit)
+RUNTIME/artifacts/audiobooks/*.mp3
+RUNTIME/artifacts/social_clips/*.txt
+RUNTIME/artifacts/**
+
+# Optional: local runtime state
+RUNTIME/logs/**
+RUNTIME/cache/**
+RUNTIME/db/**
