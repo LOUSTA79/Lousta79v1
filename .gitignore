@@ -60,3 +60,6 @@ RUNTIME/artifacts/**
 RUNTIME/logs/**
 RUNTIME/cache/**
 RUNTIME/db/**
+manufacturing/syndication/*.txt
+RUNTIME/artifacts/**
+RUNTIME/logs/**
