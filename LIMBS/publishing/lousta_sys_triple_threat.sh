@@ -19,9 +19,9 @@ if [ -z "$TOPIC" ]; then
   exit 2
 fi
 
-# Guard: reject accidental rg/log tokens like "58:python3"
-if echo "$TOPIC" | rg -q '^[0-9]+:[A-Za-z0-9_\-]+$'; then
-  echo "❌ Bad TOPIC value: $TOPIC (looks like a log token / line prefix)" >&2
+# Guard: reject dangerous characters (paths / shell metacharacters / log-token separators)
+if printf "%s" "$TOPIC" | rg -q '[:/\\[\]\(\)\{\}<>|`$;&]'; then
+  echo "❌ Bad TOPIC value: $TOPIC (contains forbidden characters)" >&2
   exit 2
 fi
 
