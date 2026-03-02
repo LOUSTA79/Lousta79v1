@@ -6,7 +6,6 @@ const path = require('path');
 const app = express();
 app.use(express.raw({type: 'application/json'}));
 
-const STRIPE_SECRET = 'whsec_eeRauZNR11ilHUgHCOnNp5DQgMKEaEke';
 const HOME = process.env.HOME || '/data/data/com.termux/files/home';
 const CORE = path.join(HOME, 'LA-Nexus/ALourithm_Core');
 const LOG_FILE = path.join(CORE, 'stripe_webhook.log');
@@ -128,30 +127,49 @@ app.get('/health', (req, res) => {
 
 app.get('/stats', (req, res) => {
   try {
-    const data = fs.existsSync(REVENUE_FILE) ? 
-      JSON.parse(fs.readFileSync(REVENUE_FILE, 'utf8')) : 
-      { totalRevenue: 0, totalProfit: 0, transactions: [] };
-    
+    let data = {};
+
+    if (fs.existsSync(REVENUE_FILE)) {
+      const raw = fs.readFileSync(REVENUE_FILE, 'utf8');
+      const parsed = JSON.parse(raw);
+      if (parsed && typeof parsed === 'object') data = parsed;
+    }
+
+    // Normalize totals
+    const totalRevenue = Number(data.totalRevenue || 0);
+    const totalProfit  = Number(data.totalProfit  || 0);
+
+    // Support BOTH schemas:
+    //  - old schema: { transactions: [...] }
+    //  - your schema: { transactionCount: 269, payoutsMade: [...] }
+    const transactions = Array.isArray(data.transactions) ? data.transactions : null;
+    const transactionCount = transactions ? transactions.length : Number(data.transactionCount || 0);
+
+    const lastTransaction =
+      transactions && transactions.length
+        ? transactions[transactions.length - 1]
+        : null;
+
     res.json({
-      totalRevenue: data.totalRevenue,
-      totalProfit: data.totalProfit,
-      transactionCount: data.transactions.length,
-      lastTransaction: data.transactions[data.transactions.length - 1] || null,
+      totalRevenue,
+      totalProfit,
+      transactionCount,
+      lastTransaction,
+      payoutsMadeCount: Array.isArray(data.payoutsMade) ? data.payoutsMade.length : 0,
+      lastUpdate: data.lastUpdate || null,
       status: 'webhook_active'
     });
   } catch (e) {
     res.json({ error: e.message });
   }
 });
-
 app.get('/', (req, res) => {
-  res.send(\`
+  res.send(`
     <h1>✅ Stripe Webhook Agent</h1>
     <p>Webhook is active and listening</p>
-    <p>Secret: whsec_eeRauZNR11ilHUgHCOnNp5DQgMKEaEke</p>
     <p><a href="/stats">View Stats</a></p>
     <p><a href="/health">Health Check</a></p>
-  \`);
+  `);
 });
 
 const PORT = 3000;
@@ -159,7 +177,6 @@ app.listen(PORT, '0.0.0.0', () => {
   log('🟢 STRIPE WEBHOOK AGENT ONLINE');
   log(`📍 Listening on http://0.0.0.0:${PORT}`);
   log(`🔐 Webhook endpoint: POST http://0.0.0.0:${PORT}/webhook`);
-  log(`✅ Secret verified: whsec_eeRauZNR11ilHUgHCOnNp5DQgMKEaEke`);
 });
 
 process.on('SIGTERM', () => {

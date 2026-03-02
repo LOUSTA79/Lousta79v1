@@ -18,5 +18,9 @@
     "express": "^5.2.1",
     "lucide-react": "^0.575.0",
     "stripe": "^20.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.2",
+    "prettier": "^3.8.1"
   }
 }

@@ -1,0 +1,10 @@
+bash       => /data/data/com.termux/files/usr/bin/bash
+rg         => /data/data/com.termux/files/usr/bin/rg
+node       => /data/data/com.termux/files/usr/bin/node
+python3    => /data/data/com.termux/files/usr/bin/python3
+git        => /data/data/com.termux/files/usr/bin/git
+openssl    => /data/data/com.termux/files/usr/bin/openssl
+sha256sum  => /data/data/com.termux/files/usr/bin/sha256sum
+ffmpeg     => /data/data/com.termux/files/usr/bin/ffmpeg
+curl       => /data/data/com.termux/files/usr/bin/curl
+jq         => /data/data/com.termux/files/usr/bin/jq

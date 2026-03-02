@@ -1,0 +1,808 @@
+
+===== BASIC =====
+
+$ pwd
+/data/data/com.termux/files/home/LA-Nexus/ALourithm_Core
+
+$ whoami || true
+u0_a734
+
+$ uname -a || true
+Linux localhost 6.6.77-android15-8-31998796-abogkiS938BXXS7BYLR-4k #1 SMP PREEMPT Mon Jan  5 09:00:42 UTC 2026 aarch64 Android
+
+$ node -v || true
+v24.13.0
+
+$ npm -v || true
+11.11.0
+
+$ pm2 -v || true
+6.0.14
+
+$ date || true
+Tue Mar  3 00:01:54 AEDT 2026
+
+===== PROJECT TREE (TOP) =====
+
+$ ls -la
+total 8269
+drwx------.  17 u0_a734 u0_a734   24576 Mar  3 00:00 .
+drwx------.  11 u0_a734 u0_a734    3452 Feb 27 16:19 ..
+-rw-------.   1 u0_a734 u0_a734     204 Feb 28 18:52 .en
+-rw-------.   1 u0_a734 u0_a734    2671 Mar  2 12:19 .env
+-rw-------.   1 u0_a734 u0_a734    1542 Mar  2 23:29 .env.live
+-rw-------.   1 u0_a734 u0_a734     163 Mar  2 21:41 .env.live.bak.20260302_215148
+-rw-------.   1 u0_a734 u0_a734     163 Mar  2 21:51 .env.live.bak.20260302_215345
+-rw-------.   1 u0_a734 u0_a734     520 Mar  1 14:43 .env.production
+-rw-------.   1 u0_a734 u0_a734    2774 Mar  2 18:52 .env.test
+-rw-------.   1 u0_a734 u0_a734       1 Mar  2 19:24 .env.testSTRIPE_SECRET_KEY=sk-antapi03oFB4CICLONQPhgFxIZLJUryOxoJwc9FSABK-15lOtnjB3oesTKpWeilQF-imxMLBEU6lNW6gjxg8XJtgAM8-Q-bJuupQAA
+drwx------.   8 u0_a734 u0_a734    3452 Mar  2 17:27 .git
+-rw-------.   1 u0_a734 u0_a734     550 Mar  2 12:44 .gitignore
+-rw-------.   1 u0_a734 u0_a734     491 Mar  1 08:50 .synced_products.json
+drwx------.   2 u0_a734 u0_a734    3452 Mar  1 08:40 CENTRAL_LIBRARY
+drwx------.   7 u0_a734 u0_a734    3452 Mar  1 16:12 CORE_BRAIN
+-rw-------.   1 u0_a734 u0_a734     767 Feb 28 21:56 DEPLOYMENT_CHECKLIST.txt
+drwxr-xr-x.   4 u0_a734 u0_a734    3452 Mar  2 15:04 INTEGRATIONS
+drwx------.  12 u0_a734 u0_a734    3452 Mar  2 07:35 LIMBS
+-rw-------.   1 u0_a734 u0_a734      34 Feb 28 21:55 LOUSTA_STRATEGIC_PLAN.md
+-rw-------.   1 u0_a734 u0_a734   31354 Feb 27 17:28 MASTER_SALES_CATALOG.txt
+drwx------.  10 u0_a734 u0_a734    3452 Mar  2 16:02 RUNTIME
+-rw-------.   1 u0_a734 u0_a734     536 Feb 28 21:57 START.txt
+drwx------.   2 u0_a734 u0_a734    3452 Feb 27 11:57 __pycache__
+drwx------.   2 u0_a734 u0_a734    3452 Mar  3 00:01 _audit
+-rwx------.   1 u0_a734 u0_a734    1448 Mar  2 12:19 ace_o_agent.py
+-rwx------.   1 u0_a734 u0_a734    1672 Mar  2 12:19 ace_o_revenue.py
+-rwx------.   1 u0_a734 u0_a734     772 Mar  2 12:19 affiliate_swarm_agent.py
+-rwx------.   1 u0_a734 u0_a734    7222 Mar  2 12:19 agent.py
+-rwx------.   1 u0_a734 u0_a734   25524 Mar  2 12:19 ai_publishing_system.py
+-rw-------.   1 u0_a734 u0_a734      36 Mar  2 12:19 ai_publishing_system_LIVE_PRODUCTION.py
+-rwx------.   1 u0_a734 u0_a734    2010 Mar  2 12:19 ai_studio_code.py
+-rwx------.   1 u0_a734 u0_a734    1135 Mar  2 12:19 alert_agent.py
+-rwx------.   1 u0_a734 u0_a734     464 Feb 27 11:19 ambience_swarm.sh
+-rwx------.   1 u0_a734 u0_a734   16412 Feb 27 11:20 app (1).py
+-rwx------.   1 u0_a734 u0_a734    5289 Mar  2 12:19 app.py
+-rwx------.   1 u0_a734 u0_a734    9308 Mar  2 12:19 app_Version2.py
+-rwx------.   1 u0_a734 u0_a734     761 Mar  2 12:19 ato_ready_architect.py
+-rw-------.   1 u0_a734 u0_a734     170 Mar  2 12:19 audio_generator.js
+-rw-------.   1 u0_a734 u0_a734     602 Mar  2 12:19 audio_worker.js
+-rwx------.   1 u0_a734 u0_a734     943 Mar  2 12:19 audiobook_agent.py
+-rw-------.   1 u0_a734 u0_a734    1034 Mar  2 12:19 auto_archive_agent.js
+-rwx------.   1 u0_a734 u0_a734     170 Feb 28 22:17 auto_backup.sh
+-rwx------.   1 u0_a734 u0_a734     271 Feb 27 11:19 battery_guard.sh
+-rw-------.   1 u0_a734 u0_a734    4777 Mar  2 12:19 books_sales_tracker.js
+-rw-------.   1 u0_a734 u0_a734     487 Feb 27 15:41 budget_targets.json
+-rwx------.   1 u0_a734 u0_a734    1166 Mar  2 12:19 bulk_upgrade_oee.py
+-rw-------.   1 u0_a734 u0_a734    1385 Mar  2 12:19 catalog_generator.js
+-rw-------.   1 u0_a734 u0_a734    1156 Mar  2 12:19 cell_template.js
+drwx------.   2 u0_a734 u0_a734    3452 Feb 27 11:12 ceo
+drwx------.   2 u0_a734 u0_a734    3452 Feb 27 11:12 cfo
+-rwx------.   1 u0_a734 u0_a734    1233 Mar  2 12:19 competitor_shadow.py
+-rw-------.   1 u0_a734 u0_a734     677 Mar  2 12:19 course_generator.py
+-rwx------.   1 u0_a734 u0_a734     958 Mar  2 12:19 course_transformer.py
+-rwx------.   1 u0_a734 u0_a734    1067 Mar  2 12:19 cover_generator_agent.py
+drwx------.   2 u0_a734 u0_a734    3452 Feb 27 11:12 cto
+-rw-------.   1 u0_a734 u0_a734     464 Feb 27 17:51 current_trends.txt
+-rw-------.   1 u0_a734 u0_a734     321 Mar  2 12:19 dashboard_api.js
+-rwx------.   1 u0_a734 u0_a734    1404 Mar  2 12:19 dashboard_hub.py
+-rw-------.   1 u0_a734 u0_a734     212 Mar  2 12:19 dashboard_update.js
+-rwx------.   1 u0_a734 u0_a734   12544 Mar  2 12:19 demo_system.py
+-rwx------.   1 u0_a734 u0_a734    7978 Mar  1 07:04 deploy_dashboard.sh
+-rw-------.   1 u0_a734 u0_a734     456 Mar  2 12:19 deploy_empire.py
+-rw-------.   1 u0_a734 u0_a734     637 Mar  2 12:19 dfy_service.py
+-rwx------.   1 u0_a734 u0_a734    1568 Mar  2 12:19 distribution_flood_agent.py
+-rwx------.   1 u0_a734 u0_a734    1540 Mar  2 12:19 docs_generator_agent.py
+-rw-------.   1 u0_a734 u0_a734     917 Mar  2 12:19 doctor_agent.js
+-rw-------.   1 u0_a734 u0_a734    3790 Mar  2 16:11 earch openssl
+-rw-------.   1 u0_a734 u0_a734    8121 Feb 27 18:16 empire_global_feed.xml
+-rwx------.   1 u0_a734 u0_a734    1290 Mar  1 08:38 empire_status.sh
+-rwx------.   1 u0_a734 u0_a734    1089 Feb 27 11:19 empire_watchdog.sh
+-rwx------.   1 u0_a734 u0_a734     352 Feb 27 11:19 epub_formatter.sh
+-rwx------.   1 u0_a734 u0_a734     928 Mar  2 12:19 escrow_delivery.py
+-rwx------.   1 u0_a734 u0_a734    1494 Mar  2 12:19 executive_suite.py
+-rwx------.   1 u0_a734 u0_a734     261 Feb 27 11:19 expand_node.sh
+-rwx------.   1 u0_a734 u0_a734     346 Feb 27 11:19 export_to_ue5.sh
+-rwx------.   1 u0_a734 u0_a734     555 Mar  2 12:19 failover_logic.py
+-rwx------.   1 u0_a734 u0_a734    1222 Mar  2 12:19 final_verification.py
+-rw-------.   1 u0_a734 u0_a734    1037 Mar  2 12:19 financial_auditor.js
+-rw-------.   1 u0_a734 u0_a734    1061 Mar  2 12:19 financial_manager.js
+lrwxrwxrwx.   1 u0_a734 u0_a734      76 Feb 27 19:05 flood_gate.sh -> /data/data/com.termux/files/home/.lousta_system_core/global_flood_trigger.sh
+-rwx------.   1 u0_a734 u0_a734     859 Mar  2 12:19 follow_up_closer.py
+-rwx------.   1 u0_a734 u0_a734    1576 Mar  2 12:19 gatekeeper_api.py
+-rwx------.   1 u0_a734 u0_a734     315 Feb 27 11:19 generate_3d_mockup.sh
+-rwx------.   1 u0_a734 u0_a734     202 Feb 27 11:19 generate_tax_report.sh
+-rwx------.   1 u0_a734 u0_a734     872 Mar  2 12:19 giza_bundle_agent.py
+-rwx------.   1 u0_a734 u0_a734    1421 Mar  2 12:19 global_audit.py
+-rwx------.   1 u0_a734 u0_a734     936 Feb 27 11:19 global_flood_trigger.sh
+-rwx------.   1 u0_a734 u0_a734     869 Mar  2 12:19 global_pitcher.py
+-rwx------.   1 u0_a734 u0_a734    1124 Mar  2 12:19 globalist_swarm.py
+-rw-------.   1 u0_a734 u0_a734    1473 Mar  2 12:19 goal_commander.js
+drwx------.   2 u0_a734 u0_a734    3452 Feb 27 11:12 growth
+-rwx------.   1 u0_a734 u0_a734    1004 Feb 27 14:55 hardened_ignite.sh
+-rw-------.   1 u0_a734 u0_a734     260 Feb 27 16:25 identities.json
+-rwx------.   1 u0_a734 u0_a734     388 Feb 27 11:19 ignite_empire.sh
+-rwx------.   1 u0_a734 u0_a734     229 Mar  1 14:17 install.sh
+-rw-------.   1 u0_a734 u0_a734   85145 Mar  1 08:28 inventory.json
+-rwx------.   1 u0_a734 u0_a734    1997 Mar  2 12:19 investor_protocol.py
+-rwx------.   1 u0_a734 u0_a734    1911 Mar  2 12:19 invoice_agent.py
+-rwx------.   1 u0_a734 u0_a734    1489 Mar  2 12:19 invoice_automator.py
+-rw-------.   1 u0_a734 u0_a734     849 Mar  2 12:19 ip_sealer.js
+-rwx------.   1 u0_a734 u0_a734     857 Mar  2 05:49 launch_empire.sh
+-rw-------.   1 u0_a734 u0_a734     104 Feb 27 21:34 leads_database.csv
+-rw-------.   1 u0_a734 u0_a734      58 Feb 27 16:25 ledger_2026.csv
+-rw-------.   1 u0_a734 u0_a734    1130 Mar  2 12:19 ledger_finalizer.js
+-rwx------.   1 u0_a734 u0_a734    1727 Mar  2 12:19 ledger_sync.py
+-rwx------.   1 u0_a734 u0_a734     248 Feb 27 11:19 link_injector.sh
+-rw-------.   1 u0_a734 u0_a734     124 Mar  2 12:19 live_connectors.py
+-rwx------.   1 u0_a734 u0_a734    3180 Mar  2 12:19 live_dashboard.py
+-rwx------.   1 u0_a734 u0_a734    1372 Mar  2 12:19 live_flow.py
+-rw-------.   1 u0_a734 u0_a734     134 Mar  1 07:24 live_sales.json
+-rw-------.   1 u0_a734 u0_a734    2780 Mar  3 00:01 live_telemetry.json
+-rwx------.   1 u0_a734 u0_a734     547 Mar  2 12:19 lore_agent.py
+-rwx------.   1 u0_a734 u0_a734   20583 Mar  2 12:19 lou_gen_v1.py
+-rwx------.   1 u0_a734 u0_a734     985 Feb 27 09:35 lou_salesman.bak
+-rwx------.   1 u0_a734 u0_a734    1793 Mar  2 12:19 loubot_admin.py
+-rwx------.   1 u0_a734 u0_a734    1900 Mar  2 12:19 loubot_autonomous.py
+-rwx------.   1 u0_a734 u0_a734    1990 Mar  2 12:19 loubot_manager.py
+-rwx------.   1 u0_a734 u0_a734   20583 Mar  2 12:19 loustas_books_working_prototype.py
+-rw-------.   1 u0_a734 u0_a734    1986 Mar  2 12:19 manager.js
+drwx------.   3 u0_a734 u0_a734    3452 Mar  2 06:00 manufacturing
+-rw-------.   1 u0_a734 u0_a734     126 Feb 27 17:52 market_research.json
+-rw-------.   1 u0_a734 u0_a734     925 Mar  2 12:19 market_response_sentry.js
+-rw-------.   1 u0_a734 u0_a734    1197 Mar  2 12:19 master_ignition.js
+-rwx------.   1 u0_a734 u0_a734     989 Mar  2 12:19 max_throttle_revenue.py
+-rwx------.   1 u0_a734 u0_a734     936 Mar  2 12:19 media_swarm_agent.py
+-rw-------.   1 u0_a734 u0_a734     645 Mar  2 12:19 megaplex_launcher.js
+-rwx------.   1 u0_a734 u0_a734    1014 Mar  2 12:19 member_gate.py
+-rwx------.   1 u0_a734 u0_a734    1548 Mar  2 12:19 member_welcome_agent.py
+-rwx------.   1 u0_a734 u0_a734    1874 Mar  2 12:19 metadata_packager.py
+-rw-------.   1 u0_a734 u0_a734    1053 Mar  2 12:19 metrics_api_server.js
+-rwx------.   1 u0_a734 u0_a734    1141 Mar  1 08:37 monitor_empire.sh
+-rwx------.   1 u0_a734 u0_a734   10463 Feb 27 12:04 multi_agent_playbook.json
+-rw-------.   1 u0_a734 u0_a734     597 Mar  2 12:19 multi_tenant_auditor.js
+-rw-------.   1 u0_a734 u0_a734     614 Mar  2 12:19 multilingual_ceo.py
+-rwx------.   1 u0_a734 u0_a734   22374 Mar  2 12:19 nagomi_empire_10x.py
+-rw-------.   1 u0_a734 u0_a734     491 Mar  2 12:19 newsletter_agent.py
+drwx------. 144 u0_a734 u0_a734    8192 Mar  2 16:14 node_modules
+-rw-------.   1 u0_a734 u0_a734    2856 Feb 28 22:42 nohup.out
+-rwx------.   1 u0_a734 u0_a734     318 Feb 27 11:19 notify_lousta.sh
+-rw-------.   1 u0_a734 u0_a734     940 Mar  2 12:19 offgrid_insurance.js
+-rw-------.   1 u0_a734 u0_a734     111 Feb 27 17:57 optimized_prices.json
+-rw-------.   1 u0_a734 u0_a734   68155 Mar  2 16:14 package-lock.json
+-rw-------.   1 u0_a734 u0_a734     551 Mar  2 16:14 package.json
+-rwx------.   1 u0_a734 u0_a734     133 Feb 27 11:19 parallel_prod.sh
+-rwx------.   1 u0_a734 u0_a734     661 Feb 27 11:19 parallel_swarm_v50.sh
+-rw-------.   1 u0_a734 u0_a734    1304 Mar  2 12:19 patch_orchestrator.py
+-rwx------.   1 u0_a734 u0_a734    1030 Mar  1 04:41 payout_guard.sh
+-rw-------.   1 u0_a734 u0_a734     941 Mar  2 12:19 payout_trigger.py
+-rwx------.   1 u0_a734 u0_a734     550 Mar  2 12:19 peer_review_swarm.py
+-rwx------.   1 u0_a734 u0_a734    3020 Mar  1 06:52 phase3_deploy.sh
+-rw-------.   1 u0_a734 u0_a734    1172 Mar  2 12:19 phase3_global.py
+-rw-------.   1 u0_a734 u0_a734    2412 Mar  2 12:19 phase3_global_orchestrator.py
+-rwx------.   1 u0_a734 u0_a734    1265 Mar  2 12:19 podcast_swarm.py
+-rwx------.   1 u0_a734 u0_a734    1199 Mar  2 12:19 pr_pulse_agent.py
+-rw-------.   1 u0_a734 u0_a734    1180 Mar  2 12:19 price_optimizer.js
+-rwx------.   1 u0_a734 u0_a734     931 Mar  2 12:19 price_optimizer.py
+-rwx------.   1 u0_a734 u0_a734   10562 Mar  2 12:19 production_example.py
+-rw-------.   1 u0_a734 u0_a734     585 Mar  1 13:57 production_live.txt
+-rw-------.   1 u0_a734 u0_a734     581 Mar  2 12:19 production_press.js
+-rwx------.   1 u0_a734 u0_a734    1067 Mar  2 12:19 production_swarm.py
+-rwx------.   1 u0_a734 u0_a734     963 Mar  2 12:19 production_sync.py
+-rw-------.   1 u0_a734 u0_a734    1666 Mar  2 23:09 profit.log
+-rw-------.   1 u0_a734 u0_a734    1278 Mar  2 12:19 profit_engine.js
+-rw-------.   1 u0_a734 u0_a734    3598 Mar  2 12:19 profit_enhancements.js
+-rw-------.   1 u0_a734 u0_a734    1396 Mar  2 12:19 profit_forecaster.js
+-rwx------.   1 u0_a734 u0_a734     800 Mar  2 12:19 prospector_agent.py
+drwx------.   2 u0_a734 u0_a734    3452 Feb 27 11:12 publishing
+-rw-------.   1 u0_a734 u0_a734    1310 Mar  2 12:19 quality_swarm.js
+-rwx------.   1 u0_a734 u0_a734    6702 Mar  2 12:19 quickstart.py
+-rwx------.   1 u0_a734 u0_a734     567 Mar  2 12:19 regional_expansion.py
+-rwx------.   1 u0_a734 u0_a734    2349 Mar  2 12:19 report_generator_agent.py
+-rw-------.   1 u0_a734 u0_a734     886 Mar  2 12:19 research_swarm.js
+-rwx------.   1 u0_a734 u0_a734     690 Feb 28 21:57 revenue_monitor.sh
+-rwx------.   1 u0_a734 u0_a734     569 Mar  2 12:19 revenue_pricing.py
+-rwx------.   1 u0_a734 u0_a734     707 Mar  2 12:19 revenue_radar.py
+-rwx------.   1 u0_a734 u0_a734    1053 Mar  2 12:19 review_vault_agent.py
+-rw-------.   1 u0_a734 u0_a734     637 Mar  2 12:19 saas_api_engine.py
+-rw-------.   1 u0_a734 u0_a734     908 Mar  2 12:19 sales_invader.js
+-rw-------.   1 u0_a734 u0_a734     876 Mar  2 12:19 sales_invader_prime.js
+-rw-------.   1 u0_a734 u0_a734     981 Mar  2 12:19 sales_researcher.js
+-rw-------.   1 u0_a734 u0_a734    3683 Mar  2 12:19 scan_inventory.js
+-rw-------.   1 u0_a734 u0_a734     600 Mar  2 12:19 script_writer.js
+-rw-------.   1 u0_a734 u0_a734    1786 Mar  2 12:19 send_signed_webhook.js
+-rw-------.   1 u0_a734 u0_a734    1612 Feb 28 18:11 send_signed_webhook.js.bak.20260228_181110
+-rw-------.   1 u0_a734 u0_a734     511 Mar  2 12:19 sequential_logic.js
+-rwx------.   1 u0_a734 u0_a734     984 Feb 27 11:19 shorts_generator.sh
+-rwx------.   1 u0_a734 u0_a734    1244 Mar  2 12:19 shorts_promo_agent.py
+-rwx------.   1 u0_a734 u0_a734     942 Mar  2 12:19 social_commenter.py
+-rw-------.   1 u0_a734 u0_a734    1323 Mar  2 12:19 sovereign_governor.js
+-rw-------.   1 u0_a734 u0_a734   21416 Feb 27 17:27 sovereign_ledger.json
+-rwx------.   1 u0_a734 u0_a734     907 Feb 27 11:19 stage_social_posts.sh
+-rwx------.   1 u0_a734 u0_a734     147 Feb 27 11:19 start_autonomous_engine.sh
+-rwx------.   1 u0_a734 u0_a734     957 Feb 27 11:19 start_empire_production.sh
+-rwx------.   1 u0_a734 u0_a734     735 Feb 27 11:19 storyboarder_swarm.sh
+-rw-------.   1 u0_a734 u0_a734     431 Mar  2 12:19 stream_Arabic.py
+-rw-------.   1 u0_a734 u0_a734     433 Mar  2 12:19 stream_Chinese.py
+-rw-------.   1 u0_a734 u0_a734     429 Mar  2 12:19 stream_Dutch.py
+-rw-------.   1 u0_a734 u0_a734     433 Mar  2 12:19 stream_English.py
+-rw-------.   1 u0_a734 u0_a734     431 Mar  2 12:19 stream_French.py
+-rw-------.   1 u0_a734 u0_a734     431 Mar  2 12:19 stream_German.py
+-rw-------.   1 u0_a734 u0_a734     429 Mar  2 12:19 stream_Hindi.py
+-rw-------.   1 u0_a734 u0_a734     433 Mar  2 12:19 stream_Italian.py
+-rw-------.   1 u0_a734 u0_a734     435 Mar  2 12:19 stream_Japanese.py
+-rw-------.   1 u0_a734 u0_a734     431 Mar  2 12:19 stream_Korean.py
+-rw-------.   1 u0_a734 u0_a734     431 Mar  2 12:19 stream_Polish.py
+-rw-------.   1 u0_a734 u0_a734     439 Mar  2 12:19 stream_Portuguese.py
+-rw-------.   1 u0_a734 u0_a734     433 Mar  2 12:19 stream_Russian.py
+-rw-------.   1 u0_a734 u0_a734     433 Mar  2 12:19 stream_Spanish.py
+-rw-------.   1 u0_a734 u0_a734     433 Mar  2 12:19 stream_Turkish.py
+-rw-------.   1 u0_a734 u0_a734     714 Mar  2 12:19 stress_test.js
+lrwxrwxrwx.   1 u0_a734 u0_a734      84 Feb 24 01:42 stripe_1.19.4_linux_arm64.tar.gz -> /data/data/com.termux/files/home/Colonies/Gamma_Edu/stripe_1.19.4_linux_arm64.tar.gz
+-rw-------.   1 u0_a734 u0_a734 7042123 Aug 29  2024 stripe_1.21.3_linux_arm64.tar.gz
+-rw-------.   1 u0_a734 u0_a734     682 Mar  2 23:09 stripe_bridge.log
+-rwx------.   1 u0_a734 u0_a734     555 Mar  2 12:19 stripe_coupon_agent.py
+-rw-------.   1 u0_a734 u0_a734    1990 Feb 28 17:38 stripe_sales_bridge.js.bak.20260228_173819
+-rw-------.   1 u0_a734 u0_a734    1990 Feb 28 17:41 stripe_sales_bridge.js.bak.20260228_174137
+-rw-------.   1 u0_a734 u0_a734    2248 Feb 28 17:52 stripe_sales_bridge.js.bak.20260228_175219
+-rw-------.   1 u0_a734 u0_a734    2567 Feb 28 18:36 stripe_sales_bridge.js.bak.20260228_183615
+-rw-------.   1 u0_a734 u0_a734    1481 Feb 28 19:37 stripe_sales_bridge.js.bak.20260228_193749
+-rwx------.   1 u0_a734 u0_a734    1393 Mar  2 12:19 stripe_sync_agent.py
+-rwx------.   1 u0_a734 u0_a734     257 Feb 28 19:35 stripe_watchdog.sh
+-rw-------.   1 u0_a734 u0_a734    3328 Mar  2 21:38 stripe_webhook.log
+-rwx------.   1 u0_a734 u0_a734    1180 Mar  2 12:19 subscription_engine.py
+-rwx------.   1 u0_a734 u0_a734     895 Mar  2 12:19 substack_agent.py
+-rw-------.   1 u0_a734 u0_a734     777 Mar  2 12:19 success_alert.js
+-rwx------.   1 u0_a734 u0_a734     381 Feb 27 16:06 success_bell.sh
+-rwx------.   1 u0_a734 u0_a734     632 Feb 27 11:19 sunday_cleanup.sh
+-rw-------.   1 u0_a734 u0_a734    1132 Mar  2 12:19 super_gateway.js
+-rw-------.   1 u0_a734 u0_a734     620 Mar  2 12:19 swarm_dispatcher.js
+-rw-------.   1 u0_a734 u0_a734     444 Mar  2 12:19 synapse_brain.js
+-rwx------.   1 u0_a734 u0_a734    1005 Feb 27 11:19 sync-to-connectors.sh
+-rw-------.   1 u0_a734 u0_a734     661 Mar  2 12:19 sync_engine.js
+-rwx------.   1 u0_a734 u0_a734     773 Mar  2 12:19 syndication_swarm.py
+-rw-------.   1 u0_a734 u0_a734     528 Mar  2 12:19 telemetry_helper.js
+-rwx------.   1 u0_a734 u0_a734    5009 Mar  2 12:19 test_backend.py
+-rwx------.   1 u0_a734 u0_a734     262 Feb 27 11:19 thermal_governor.sh
+-rwx------.   1 u0_a734 u0_a734     280 Feb 27 11:19 thermal_guard.sh
+-rwx------.   1 u0_a734 u0_a734    2639 Mar  3 00:00 tools_audit_termux_config.sh
+-rwx------.   1 u0_a734 u0_a734    1051 Mar  2 12:19 translation_swarm.py
+-rw-------.   1 u0_a734 u0_a734    4288 Mar  2 04:54 tunnel.log
+-rwx------.   1 u0_a734 u0_a734    1151 Mar  2 12:19 ue5_asset_linker.py
+-rw-------.   1 u0_a734 u0_a734     985 Mar  2 12:19 upsell_logic.js
+-rw-------.   1 u0_a734 u0_a734     190 Mar  2 12:19 video_engine.js
+-rw-------.   1 u0_a734 u0_a734     554 Mar  2 12:19 video_worker.js
+-rwx------.   1 u0_a734 u0_a734     222 Mar  2 12:19 voice_engine.py
+-rw-------.   1 u0_a734 u0_a734    1350 Mar  2 12:19 warehouse_organizer.js
+-rwx------.   1 u0_a734 u0_a734     141 Feb 27 11:19 watermark_agent.sh
+-rwx------.   1 u0_a734 u0_a734    1744 Mar  2 12:19 web_core_v40.py
+-rwx------.   1 u0_a734 u0_a734    1986 Mar  2 12:19 web_generator_agent.py
+-rw-------.   1 u0_a734 u0_a734      33 Mar  2 23:03 webhook.log
+-rw-------.   1 u0_a734 u0_a734     769 Mar  2 12:19 webhook_server.js
+-rwx------.   1 u0_a734 u0_a734    1930 Mar  2 12:19 whitepaper_agent.py
+-rw-------.   1 u0_a734 u0_a734     622 Mar  2 12:19 work_injector.js
+-rw-------.   1 u0_a734 u0_a734     456 Mar  1 03:31 work_queue.json
+-rwx------.   1 u0_a734 u0_a734     627 Mar  2 12:19 x_threader.py
+
+$ find "/data/data/com.termux/files/home/LA-Nexus/ALourithm_Core" -maxdepth 3 -type f \( -name "*.js" -o -name "*.mjs" -o -name "*.cjs" -o -name "*.json" -o -name "*.sh" -o -name "*.env*" \) 2>/dev/null | sed 's#^#FILE: #'
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/ambience_swarm.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/battery_guard.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/empire_watchdog.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/epub_formatter.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/expand_node.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/export_to_ue5.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/generate_3d_mockup.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/generate_tax_report.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/global_flood_trigger.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/ignite_empire.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/launch_empire.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/bench.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/stream.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/parallel.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/serial.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/asynckit/serialOrdered.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/body-parser/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/body-parser/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/bytes/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/bytes/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bound/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bound/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bound/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/combined-stream/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/content-disposition/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/content-disposition/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/content-type/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/content-type/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cookie/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cookie/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cookie-signature/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cookie-signature/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cors/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/debug/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/actualApply.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/applyBind.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/functionApply.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/functionCall.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/reflectApply.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/call-bind-apply-helpers/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/depd/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/depd/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/delayed-stream/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/dotenv/config.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/dotenv/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/dunder-proto/get.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/dunder-proto/set.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/dunder-proto/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/dunder-proto/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/encodeurl/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/encodeurl/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ee-first/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ee-first/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-define-property/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-define-property/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-define-property/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/eval.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/range.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/ref.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/syntax.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/type.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/uri.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-errors/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-object-atoms/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-object-atoms/isObject.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-object-atoms/RequireObjectCoercible.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-object-atoms/ToObject.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-object-atoms/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-object-atoms/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-set-tostringtag/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-set-tostringtag/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/es-set-tostringtag/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/escape-html/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/escape-html/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/express/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/express/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/finalhandler/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/finalhandler/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/follow-redirects/debug.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/follow-redirects/http.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/follow-redirects/https.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/follow-redirects/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/follow-redirects/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/form-data/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/forwarded/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/forwarded/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fresh/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fresh/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/function-bind/implementation.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/function-bind/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/function-bind/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-intrinsic/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-intrinsic/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-proto/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-proto/Object.getPrototypeOf.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-proto/Reflect.getPrototypeOf.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-proto/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/get-proto/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/gopd/gOPD.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/gopd/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/gopd/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/gopd/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-symbols/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-symbols/shams.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-symbols/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-symbols/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/hasown/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/hasown/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/hasown/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/http-errors/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/http-errors/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/iconv-lite/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/inherits/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/inherits/inherits_browser.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/inherits/inherits.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ipaddr.js/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ipaddr.js/ipaddr.min.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-promise/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-promise/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-promise/index.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-schema-to-ts/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/lucide-react/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/lucide-react/dynamic.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/lucide-react/dynamicIconImports.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/abs.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/floor.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/isFinite.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/isInteger.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/isNaN.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/isNegativeZero.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/max.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/min.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/mod.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/pow.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/round.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/sign.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/math-intrinsics/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/media-typer/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/media-typer/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/merge-descriptors/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/merge-descriptors/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/mime-db/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/mime-db/db.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/mime-db/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/mime-types/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/mime-types/mimeScore.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/mime-types/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ms/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ms/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-tostringtag/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-tostringtag/shams.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-tostringtag/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/has-tostringtag/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/negotiator/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/negotiator/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-assign/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-assign/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-inspect/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-inspect/test-core-js.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-inspect/util.inspect.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-inspect/package-support.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/object-inspect/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/on-finished/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/on-finished/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/once/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/once/once.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/parseurl/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/parseurl/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/path-to-regexp/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/proxy-addr/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/proxy-addr/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/proxy-from-env/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/proxy-from-env/test.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/proxy-from-env/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/qs/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/qs/eslint.config.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/range-parser/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/range-parser/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/raw-body/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/raw-body/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/send/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/send/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/serve-static/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/serve-static/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/compiler-runtime.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/jsx-dev-runtime.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/jsx-dev-runtime.react-server.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/jsx-runtime.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/jsx-runtime.react-server.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/react.react-server.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/react/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-list/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-list/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-list/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/router/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/router/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-map/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-map/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-map/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-weakmap/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-weakmap/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/side-channel-weakmap/tsconfig.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/stripe/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/toidentifier/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/toidentifier/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/safer-buffer/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/safer-buffer/dangerous.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/safer-buffer/safer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/safer-buffer/tests.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/setprototypeof/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/setprototypeof/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/unpipe/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/unpipe/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ts-algebra/.eslintrc.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ts-algebra/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/vary/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/vary/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/wrappy/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/wrappy/wrappy.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/axios/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/axios/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/etag/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/etag/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/accepts/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/accepts/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/statuses/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/statuses/codes.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/statuses/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/type-is/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/type-is/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/.package-lock.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/index.cjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/doc.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/standalone.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/doc.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/index.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prettier/standalone.mjs
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ajv/.tonic_example.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ajv/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cross-spawn/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/cross-spawn/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/escape-string-regexp/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/escape-string-regexp/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/eslint-scope/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/eslint-visitor-keys/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/espree/espree.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/espree/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/esquery/parser.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/esquery/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/esutils/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-deep-equal/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-deep-equal/react.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-deep-equal/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/file-entry-cache/cache.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/file-entry-cache/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/find-up/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/find-up/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/glob-parent/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/glob-parent/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ignore/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ignore/legacy.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/ignore/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/imurmurhash/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/imurmurhash/imurmurhash.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/imurmurhash/imurmurhash.min.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-glob/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-glob/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-stable-stringify-without-jsonify/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-stable-stringify-without-jsonify/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/minimatch/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/natural-compare/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/natural-compare/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/optionator/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/levn/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-json-stable-stringify/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-json-stable-stringify/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-schema-traverse/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-schema-traverse/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/uri-js/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/path-key/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/path-key/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/shebang-command/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/shebang-command/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/which/which.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/which/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/esrecurse/esrecurse.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/esrecurse/gulpfile.babel.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/esrecurse/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/estraverse/estraverse.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/estraverse/gulpfile.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/estraverse/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/acorn/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/acorn-jsx/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/acorn-jsx/xhtml.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/acorn-jsx/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/flat-cache/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/locate-path/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/locate-path/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/path-exists/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/path-exists/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/flatted/es.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/flatted/esm.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/flatted/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/flatted/min.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/flatted/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/keyv/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-extglob/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/is-extglob/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-buffer/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/json-buffer/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/prelude-ls/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/type-check/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/p-locate/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/p-locate/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/brace-expansion/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/balanced-match/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/deep-is/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/deep-is/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-levenshtein/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/fast-levenshtein/levenshtein.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/word-wrap/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/word-wrap/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/p-limit/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/p-limit/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/yocto-queue/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/yocto-queue/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/shebang-regex/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/shebang-regex/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/punycode/punycode.es6.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/punycode/punycode.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/punycode/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/isexe/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/isexe/windows.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/isexe/index.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/isexe/mode.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/node_modules/eslint/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/link_injector.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/notify_lousta.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/parallel_prod.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/parallel_swarm_v50.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/payout_guard.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/shorts_generator.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/stage_social_posts.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/start_autonomous_engine.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/start_empire_production.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/storyboarder_swarm.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sunday_cleanup.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sync-to-connectors.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/thermal_governor.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/thermal_guard.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/watermark_agent.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/multi_agent_playbook.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/manager.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/INTEGRATIONS/cloned/LOUSTA79_boot_pm2_resurrect.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/hardened_ignite.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/financial_manager.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/financial_auditor.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/quality_swarm.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/doctor_agent.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/synapse_brain.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/research_swarm.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/warehouse_organizer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/auto_archive_agent.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/profit_forecaster.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/budget_targets.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/goal_commander.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/super_gateway.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/offgrid_insurance.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/multi_tenant_auditor.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/cell_template.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/megaplex_launcher.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/master_ignition.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/script_writer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/audio_generator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/video_engine.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/live_telemetry.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/telemetry_helper.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/audio_worker.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sovereign_governor.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/catalog_generator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sales_invader_prime.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sales_researcher.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/market_research.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/tools_audit_termux_config.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sequential_logic.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/success_alert.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/send_signed_webhook.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env.live.bak.20260302_215148
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/stripe_watchdog.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/revenue_monitor.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/work_queue.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env.production
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env.live.bak.20260302_215345
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/scan_inventory.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/metrics_api_server.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/monitor_empire.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/empire_status.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.synced_products.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sync_engine.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/books_sales_tracker.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/install.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/RUNTIME/db/books_sales_db.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/RUNTIME/db/active_mission.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/RUNTIME/db/upload_queue.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/RUNTIME/backups/dashboard_port_backup.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/success_bell.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/production_press.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/identities.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/stress_test.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/swarm_dispatcher.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sales_invader.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/market_response_sentry.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/video_worker.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/ip_sealer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/ledger_finalizer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/sovereign_ledger.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/work_injector.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env.live
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env.test
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/price_optimizer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/optimized_prices.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/upsell_logic.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/package.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/package-lock.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/live_sales.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/auto_backup.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/webhook_server.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/.env.testSTRIPE_SECRET_KEY=sk-antapi03oFB4CICLONQPhgFxIZLJUryOxoJwc9FSABK-15lOtnjB3oesTKpWeilQF-imxMLBEU6lNW6gjxg8XJtgAM8-Q-bJuupQAA
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/phase3_deploy.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/deploy_dashboard.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/dashboard_api.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/inventory.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/dashboard_update.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/profit_enhancements.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/profit_engine.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/hub/hub.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/hub/orchestrator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/hub/sequential_orchestrator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/hub/swarm_orchestrator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/hub/audio_orchestrator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/hub/live_sync_orchestrator.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/config/mode.env
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/config/env.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/registry/agents.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/memory/market_pulse.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/triggers/launch_all_agents.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/triggers/launch_autonomous.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/triggers/launch_global_batch.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/triggers/launch_global_tunnel.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/triggers/launch_hardened.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/CORE_BRAIN/triggers/lousta_watchdog.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_agent.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_agent_dashboard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_live_revenue.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_maintenance_guard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_sales_bridge.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_sentinel.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_vault.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/stripe_webhook_agent.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/send_signed_stripe_webhook.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/stripe/test_signature.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/autonomous_book_gen.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_platform_distributor.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_drip_manager.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_intl_expander.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_triple_threat.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_audio_swarm.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_global_master.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_ten_x_throttle.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_ist_dispatch.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_success_blitz.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/pax_silica_social_swarm.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/gujarat_surge_blitz.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_victory_lap.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/agrifood_social_blitz.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_harden_preflight.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_lockbox_refresh.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_admin_unlock.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_admin_lock_refresh.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_inventory.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_topic_score.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/publishing/lousta_sys_topic_to_production.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/payment_hub.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/affiliate_engine.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/membership_engine.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_launch_sequencer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_profit_hedge.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_indian_drip.json
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_payout_alert.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_profit_gate.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_velocity_ticker.sh
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_price_optimizer.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_nurture.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/sales/lousta_sys_shadow_scan.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/dashboard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/live_dashboard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/sync_dashboard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/books_sales_dashboard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/live_feed.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/revenue_monitor.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/dashboards/lousta_sys_revenue_dashboard.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/growth/email_automation.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/media/lousta_sys_video_swarm.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/media/lousta_sys_low_cost_video.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/quality/lousta_sys_quality_swarm.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/quality/lousta_sys_inventory_audit.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/finance/lousta_sys_payout_report.js
+FILE: /data/data/com.termux/files/home/LA-Nexus/ALourithm_Core/LIMBS/finance/lousta_sys_ticker.js
+
+===== ENV FILES (SAFE PREVIEW: KEYS ONLY, VALUES REDACTED) =====

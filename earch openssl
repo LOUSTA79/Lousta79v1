@@ -1,0 +1,117 @@
+[32mblackbox[0m/stable 1.20220610 all
+  Safely store secrets in Git/Mercurial/Subversion
+
+[32mcloneit[0m/stable 20240728-1 aarch64
+  A cli tool to download specific GitHub directories or files
+
+[32mdcraw[0m/stable 9.28.0-7 aarch64
+  Raw digital camera images decoding utility
+
+[32mgh[0m/stable,now 2.87.3 aarch64 [installed]
+  GitHub’s official command line tool
+
+[32mgit[0m/stable,now 2.53.0 aarch64 [installed]
+  Fast, scalable, distributed revision control system
+
+[32mgit-credential-manager[0m/stable 2.7.0 aarch64
+  Cross-platform Git credential storage for multiple hosting providers
+
+[32mgit-crypt[0m/stable 0.8.0 aarch64
+  Enables transparent encryption and decryption of files for a git repository
+
+[32mgit-delta[0m/stable 0.18.2-3 aarch64
+  A syntax-highlighter for git and diff output
+
+[32mgit-extras[0m/stable 7.4.0-2 aarch64
+  Little git extras.
+
+[32mgit-lfs[0m/stable 3.7.1 aarch64
+  Git extension for versioning large files
+
+[32mgit-sizer[0m/stable 1.5.0-5 aarch64
+  Compute various size metrics for a Git repository
+
+[32mgit-svn[0m/stable 2.53.0 all
+  Convert between Git and Subversion repositories
+
+[32mgit-town[0m/stable 22.2.0 aarch64
+  Git branches made easy
+
+[32mgitea[0m/stable 1.25.4 aarch64
+  Git with a cup of tea, painless self-hosted git service
+
+[32mgitflow-avh[0m/stable 1.12.3-9 all
+  Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+
+[32mgitoxide[0m/stable 0.51.0 aarch64
+  Rust implementation of Git
+
+[32mgitui[0m/stable 0.28.0 aarch64
+  Blazing fast terminal-ui for git written in rust
+
+[32mglab-cli[0m/stable 1.86.0 aarch64
+  A GitLab CLI tool bringing GitLab to your command line
+
+[32mgogs[0m/stable 0.14.2 aarch64
+  A painless self-hosted Git service
+
+[32mgwc[0m/tur-packages 0.22-06r3-1 aarch64
+  GTK2 application for cleaning noise in digital music recordings (e.g. digitized vinyl recordings)
+
+[32mhub[0m/stable 2.14.2-6 aarch64
+  Command-line wrapper for git that makes you better at GitHub
+
+[32mjujutsu[0m/tur-packages 0.35.0 aarch64
+  A Git-compatible VCS that is both simple and powerful
+
+[32mkeyfinder-cli[0m/tur-packages 1.1.5 aarch64
+  Utility to estimate the key in digital music recordings
+
+[32mlazygit[0m/stable 0.59.0 aarch64
+  Simple terminal UI for git commands
+
+[32mlibgit2[0m/stable 1.9.2 aarch64
+  C library implementing Git core methods
+
+[32mlibkeyfinder[0m/stable 2.2.8 aarch64
+  Musical key detection for digital audio
+
+[32mlibliquid-dsp[0m/stable 1.7.0-1 aarch64
+  Software-defined radio digital signal processing library
+
+[32mlibraw[0m/stable,now 0.22.0 aarch64 [installed,automatic]
+  Library for reading RAW files from digital cameras
+
+[32mlogo-ls[0m/stable 2024.07.17-1 aarch64
+  Modern ls command with vscode like File Icon and Git Integrations
+
+[32mmdbook-open-on-gh[0m/stable 3.0.0 aarch64
+  A preprocessor for mdbook to add a open-on-github link on every page
+
+[32mmonero[0m/stable 0.18.4.6 aarch64
+  A private, secure, untraceable, decentralised digital currency
+
+[32monefetch[0m/stable 2.26.1 aarch64
+  A command-line Git information tool written in Rust
+
+[32mrawtherapee[0m/tur-packages 5.12 aarch64
+  raw image converter and digital photo processor
+
+[32msleuthkit[0m/stable 4.14.0-1 aarch64
+  The Sleuth Kit® (TSK) is a library for digital forensics tools.
+
+[32msqueezelite[0m/stable 2.0.0.1517-2 aarch64
+  A small headless Logitech Squeezebox emulator
+
+[32mstern[0m/tur-packages 1.33.1 aarch64
+  Multi pod and container log tailing for Kubernetes - Fork of https://github.com/wercker/stern
+
+[32mtea[0m/stable 0.12.0 aarch64
+  The official CLI for Gitea
+
+[32mtig[0m/stable 2.6.0 aarch64
+  Ncurses-based text-mode interface for git
+
+[32mvcsh[0m/stable 2.0.10 all
+  Config manager based on Git
+
